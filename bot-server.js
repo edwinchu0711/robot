@@ -120,6 +120,22 @@ function startServer() {
             const response = await manager.process('zh', message);
             console.log('NLP 回應:', JSON.stringify(response, null, 2));
             
+            // 提高信心閾值檢查 - 提前檢查
+            if (response.score < 0.6) {
+                console.log('信心分數太低:', response.score);
+                const defaultAnswer = '請繼續輸入您的問題，我在聆聽...';
+                
+                // 添加到歷史記錄
+                sessions[sessionId].history.push({ role: 'bot', content: defaultAnswer });
+                
+                return res.json({
+                    answer: defaultAnswer,
+                    intent: response.intent,
+                    score: response.score,
+                    sessionId: sessionId
+                });
+            }
+            
             let finalAnswer = '';
             
             // 特殊處理 people_info 意圖
@@ -133,17 +149,31 @@ function startServer() {
                     finalAnswer = response.answer || '抱歉，我沒有找到相關人物信息';
                 }
             } 
+            // 處理產品意圖
+            else if (response.intent === 'product_info' && response.entities && response.entities.length > 0) {
+                const productEntity = response.entities.find(e => e.entity === 'product');
+                if (productEntity) {
+                    const productName = productEntity.option || productEntity.utteranceText;
+                    finalAnswer = `關於${productName}，我們有多種型號可供選擇。您有特定需求嗎？`;
+                    console.log(`找到產品: ${productName}, 構建回應: ${finalAnswer}`);
+                } else {
+                    finalAnswer = response.answer || '抱歉，我沒有找到相關產品信息';
+                }
+            }
             // 處理其他意圖
             else {
                 finalAnswer = response.answer;
                 
                 // 替換其他意圖中的變數（如產品等）
                 if (finalAnswer && response.entities && response.entities.length > 0) {
+                    console.log('替換前:', finalAnswer);
                     for (const entity of response.entities) {
                         const placeholder = `{{${entity.entity}}}`;
                         const entityValue = entity.option || entity.utteranceText;
+                        console.log(`替換 ${placeholder} 為 ${entityValue}`);
                         finalAnswer = finalAnswer.replace(new RegExp(placeholder, 'g'), entityValue);
                     }
+                    console.log('替換後:', finalAnswer);
                 }
             }
             
@@ -154,23 +184,15 @@ function startServer() {
                 sessions[sessionId].history.push({ role: 'bot', content: finalAnswer });
             }
             
-            // 提高信心閾值
-            if (!finalAnswer || response.score < 0.6) {
-                res.json({
-                    answer: '請繼續輸入您的問題，我在聆聽...',
-                    intent: response.intent,
-                    score: response.score,
-                    sessionId: sessionId
-                });
-            } else {
-                res.json({
-                    answer: finalAnswer,
-                    intent: response.intent,
-                    score: response.score,
-                    sessionId: sessionId,
-                    entities: response.entities // 返回實體以便前端調試
-                });
-            }
+            // 直接返回最終回應，不再進行信心閾值判斷
+            res.json({
+                answer: finalAnswer,
+                intent: response.intent,
+                score: response.score,
+                sessionId: sessionId,
+                entities: response.entities // 返回實體以便前端調試
+            });
+            
         } catch (error) {
             console.error('處理訊息時發生錯誤:', error);
             res.status(500).json({ error: '處理請求時發生錯誤' });
