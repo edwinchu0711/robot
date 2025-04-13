@@ -148,7 +148,7 @@ class ChatbotNLP {
       if (response.entities && response.entities.length > 0) {
         const peopleEntity = response.entities.find(e => e.entity === 'people');
         if (peopleEntity) {
-          const personName = peopleEntity.option || peopleEntity.sourceText; // 使用 sourceText 而不是 utteranceText
+          const personName = peopleEntity.option || peopleEntity.sourceText || peopleEntity.utteranceText; // 使用 sourceText 或 utteranceText
           return `關於${personName}，我們只知道，他是Gay`;
         }
       }
@@ -160,7 +160,7 @@ class ChatbotNLP {
       if (response.entities && response.entities.length > 0) {
         const productEntity = response.entities.find(e => e.entity === 'product');
         if (productEntity) {
-          const productName = productEntity.option || productEntity.sourceText; // 使用 sourceText 而不是 utteranceText
+          const productName = productEntity.option || productEntity.sourceText || productEntity.utteranceText; // 使用 sourceText 或 utteranceText
           return `關於${productName}，我們有多種型號可供選擇。您有特定需求嗎？`;
         }
       }
@@ -195,7 +195,7 @@ class ChatbotNLP {
         if (finalAnswer && response.entities && response.entities.length > 0) {
           for (const entity of response.entities) {
             const placeholder = `{{${entity.entity}}}`;
-            const entityValue = entity.option || entity.sourceText; // 使用 sourceText
+            const entityValue = entity.option || entity.sourceText || entity.utteranceText; // 使用 sourceText 或 utteranceText
             finalAnswer = finalAnswer.replace(new RegExp(placeholder, 'g'), entityValue);
           }
         }
