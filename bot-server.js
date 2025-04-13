@@ -69,190 +69,114 @@ manager.addDocument('zh', '%product%有什麼特點', 'product_info');
 manager.addAnswer('zh', 'product_info', '關於{{product}}，我們有多種型號可供選擇。您有特定需求嗎？');
 
 // 添加 people 實體
-manager.addNamedEntityText('people', '張三', ['zh'], ['陳闈霆', '張先生']);
-manager.addNamedEntityText('people', '李四', ['zh'], ['陳闈霆', '李先生']);
-manager.addNamedEntityText('people', '王五', ['zh'], ['陳闈霆', '王先生']);
-manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆', '王先生']);
+manager.addNamedEntityText('people', '張三', ['zh'], ['張三', '張先生']);
+manager.addNamedEntityText('people', '李四', ['zh'], ['李四', '李先生']);
+manager.addNamedEntityText('people', '王五', ['zh'], ['王五', '王先生']);
+manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆']);
 // 可以添加更多人名...
-// 產品詢問意圖
+
+// 人物詢問意圖
 manager.addDocument('zh', '我想了解%people%', 'people_info');
 manager.addDocument('zh', '誰是%people%', 'people_info');
 manager.addDocument('zh', '%people%有什麼特點', 'people_info');
 manager.addDocument('zh', '介紹%people%', 'people_info');
 
-// 根據不同產品回答
-// 修改回應處理方式
-manager.addAnswer('zh', 'people_info', (data) => {
-    return `關於${data.people}，我們只知道，他是Gay`;
-});
-// 修改回應處理方式
-manager.addAnswer('zh', 'people_info', (data) => {
-    return `${data.people}是Gay`;
-});
+// 使用字符串模板而非函數
+manager.addAnswer('zh', 'people_info', '關於{{people}}，我們只知道，他是Gay');
+manager.addAnswer('zh', 'people_info', '{{people}}是Gay');
 
-
-
-
-
-
-// 添加更多意圖和回應...
-
-
-// 在 process 方法後添加回退回應
-app.post('/api/chat', async (req, res) => {
-    try {
-        const { message } = req.body;
-        if (!message) {
-            return res.status(400).json({ error: '請提供訊息' });
-        }
-        
-        const response = await manager.process('zh', message);
-        
-        // 如果信心分數低於閾值，使用回退回應
-        if (!response.answer || response.score < 0.5) {
-            res.json({
-                answer: '抱歉，我不太理解您的意思。您能換個方式表達嗎？或者告訴我您需要什麼幫助？',
-                intent: response.intent,
-                score: response.score
-            });
-        } else {
-            res.json({
-                answer: response.answer,
-                intent: response.intent,
-                score: response.score
-            });
-        }
-    } catch (error) {
-        console.error('處理訊息時發生錯誤:', error);
-        res.status(500).json({ error: '處理請求時發生錯誤' });
-    }
-});
-
-// 使用簡單的內存存儲來跟踪會話
+// 使用內存存儲來跟踪會話
 const sessions = {};
-
-app.post('/api/chat', async (req, res) => {
-    try {
-        const { message, sessionId = 'default' } = req.body;
-        
-        // 獲取或創建會話
-        if (!sessions[sessionId]) {
-            sessions[sessionId] = { context: {}, history: [] };
-        }
-        
-        // 添加到歷史記錄
-        sessions[sessionId].history.push({ role: 'user', content: message });
-        
-        // 處理消息，並傳遞上下文
-        const response = await manager.process('zh', message, sessions[sessionId].context);
-        
-        // 更新上下文
-        if (response.entities && response.entities.length > 0) {
-            response.entities.forEach(entity => {
-                sessions[sessionId].context[entity.entity] = entity.option;
-            });
-        }
-        
-        // 添加到歷史記錄
-        if (response.answer) {
-            sessions[sessionId].history.push({ role: 'bot', content: response.answer });
-        }
-        
-        res.json({
-            answer: response.answer || '抱歉，我不理解您的意思',
-            intent: response.intent,
-            score: response.score,
-            sessionId: sessionId
-        });
-    } catch (error) {
-        console.error('處理訊息時發生錯誤:', error);
-        res.status(500).json({ error: '處理請求時發生錯誤' });
-    }
-});
-
-
-// 添加日誌以便調試
-app.post('/api/chat', async (req, res) => {
-    console.log('收到聊天請求:', req.body);
-    try {
-        const { message } = req.body;
-        if (!message) {
-            return res.status(400).json({ error: '請提供訊息' });
-        }
-        
-        console.log('處理訊息:', message);
-        const response = await manager.process('zh', message);
-        console.log('NLP 回應:', JSON.stringify(response, null, 2));
-        
-        // 其餘處理邏輯...
-    } catch (error) {
-        // 錯誤處理...
-    }
-});
-
-
-
-
-
-
-
-
 
 // 訓練模型
 (async() => {
     await manager.train();
     manager.save('./model.nlp');
     console.log('模型已訓練並保存');
+    
+    // 啟動服務器
+    startServer();
 })();
 
-// API 端點
-app.post('/api/chat', async (req, res) => {
-    try {
-        const { message } = req.body;
-        if (!message) {
-            return res.status(400).json({ error: '請提供訊息' });
+function startServer() {
+    // 只保留一個 API 端點
+    app.post('/api/chat', async (req, res) => {
+        console.log('收到聊天請求:', req.body);
+        try {
+            const { message, sessionId = 'default' } = req.body;
+            if (!message) {
+                return res.status(400).json({ error: '請提供訊息' });
+            }
+            
+            // 獲取或創建會話
+            if (!sessions[sessionId]) {
+                sessions[sessionId] = { context: {}, history: [] };
+            }
+            
+            // 添加到歷史記錄
+            sessions[sessionId].history.push({ role: 'user', content: message });
+            
+            console.log('處理訊息:', message);
+            const response = await manager.process('zh', message, sessions[sessionId].context);
+            console.log('NLP 回應:', JSON.stringify(response, null, 2));
+            
+            // 更新上下文
+            if (response.entities && response.entities.length > 0) {
+                response.entities.forEach(entity => {
+                    sessions[sessionId].context[entity.entity] = entity.option;
+                });
+            }
+            
+            // 手動替換回應中的變數
+            let answer = response.answer;
+            if (answer && response.entities && response.entities.length > 0) {
+                response.entities.forEach(entity => {
+                    const placeholder = `{{${entity.entity}}}`;
+                    answer = answer.replace(new RegExp(placeholder, 'g'), entity.option);
+                });
+            }
+            
+            // 添加到歷史記錄
+            if (answer) {
+                sessions[sessionId].history.push({ role: 'bot', content: answer });
+            }
+            
+            console.log(`收到的輸入: "${message}", 長度: ${message.length}, 識別的意圖: ${response.intent}, 信心分數: ${response.score}`);
+            
+            // 如果是極短輸入但仍觸發了回應，記錄下來以便改進
+            if (message.length < 3 && response.score > 0.5) {
+                console.warn(`警告: 極短輸入 "${message}" 觸發了高信心回應: ${response.intent} (${response.score})`);
+            }
+            
+            // 提高信心閾值
+            if (!answer || response.score < 0.7) {
+                res.json({
+                    answer: '請繼續輸入您的問題，我在聆聽...',
+                    intent: response.intent,
+                    score: response.score,
+                    sessionId: sessionId
+                });
+            } else {
+                res.json({
+                    answer: answer,
+                    intent: response.intent,
+                    score: response.score,
+                    sessionId: sessionId
+                });
+            }
+        } catch (error) {
+            console.error('處理訊息時發生錯誤:', error);
+            res.status(500).json({ error: '處理請求時發生錯誤' });
         }
-        
-        const response = await manager.process('zh', message);
-        
-        // 提高信心閾值，從默認的 0.5 提高到 0.7 或更高
-        if (!response.answer || response.score < 0.7) {
-            res.json({
-                answer: '請繼續輸入您的問題，我在聆聽...',
-                intent: response.intent,
-                score: response.score
-            });
-        } else {
-            res.json({
-                answer: response.answer,
-                intent: response.intent,
-                score: response.score
-            });
-        }
-    } catch (error) {
-        console.error('處理訊息時發生錯誤:', error);
-        res.status(500).json({ error: '處理請求時發生錯誤' });
-    }
-});
+    });
 
+    // 處理 SPA 路由 (如果您使用前端框架)
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    });
 
-
-// 處理 SPA 路由 (如果您使用前端框架)
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`服務器運行於 http://localhost:${PORT}`);
-});
-
-
-// 在後端
-console.log(`收到的輸入: "${message}", 長度: ${message.length}, 識別的意圖: ${response.intent}, 信心分數: ${response.score}`);
-
-// 如果是極短輸入但仍觸發了回應，記錄下來以便改進
-if (message.length < 3 && response.score > 0.5) {
-    console.warn(`警告: 極短輸入 "${message}" 觸發了高信心回應: ${response.intent} (${response.score})`);
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+        console.log(`服務器運行於 http://localhost:${PORT}`);
+    });
 }
-
