@@ -68,6 +68,21 @@ manager.addDocument('zh', '%product%有什麼特點', 'product_info');
 // 根據不同產品回答
 manager.addAnswer('zh', 'product_info', '關於{{product}}，我們有多種型號可供選擇。您有特定需求嗎？');
 
+
+// 產品詢問意圖
+manager.addDocument('zh', '我想了解%people%', 'people_info');
+manager.addDocument('zh', '誰是%people%', 'people_info');
+manager.addDocument('zh', '%people%有什麼特點', 'people_info');
+manager.addDocument('zh', '介紹%people%', 'people_info');
+
+// 根據不同產品回答
+manager.addAnswer('zh', 'people_info', '關於{{people}}，我們只知道，他是Gay');
+manager.addAnswer('zh', 'people_info', '{{people}}是Gay');
+
+
+
+
+
 // 添加更多意圖和回應...
 
 
@@ -180,18 +195,35 @@ app.post('/api/chat', async (req, res) => {
 
 // API 端點
 app.post('/api/chat', async (req, res) => {
-    const { message } = req.body;
-    if (!message) {
-        return res.status(400).json({ error: '請提供訊息' });
+    try {
+        const { message } = req.body;
+        if (!message) {
+            return res.status(400).json({ error: '請提供訊息' });
+        }
+        
+        const response = await manager.process('zh', message);
+        
+        // 提高信心閾值，從默認的 0.5 提高到 0.7 或更高
+        if (!response.answer || response.score < 0.7) {
+            res.json({
+                answer: '請繼續輸入您的問題，我在聆聽...',
+                intent: response.intent,
+                score: response.score
+            });
+        } else {
+            res.json({
+                answer: response.answer,
+                intent: response.intent,
+                score: response.score
+            });
+        }
+    } catch (error) {
+        console.error('處理訊息時發生錯誤:', error);
+        res.status(500).json({ error: '處理請求時發生錯誤' });
     }
-    
-    const response = await manager.process('zh', message);
-    res.json({
-        answer: response.answer || '抱歉，我不明白你的意思',
-        intent: response.intent,
-        score: response.score
-    });
 });
+
+
 
 // 處理 SPA 路由 (如果您使用前端框架)
 app.get('*', (req, res) => {
@@ -202,3 +234,13 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`服務器運行於 http://localhost:${PORT}`);
 });
+
+
+// 在後端
+console.log(`收到的輸入: "${message}", 長度: ${message.length}, 識別的意圖: ${response.intent}, 信心分數: ${response.score}`);
+
+// 如果是極短輸入但仍觸發了回應，記錄下來以便改進
+if (message.length < 3 && response.score > 0.5) {
+    console.warn(`警告: 極短輸入 "${message}" 觸發了高信心回應: ${response.intent} (${response.score})`);
+}
+
