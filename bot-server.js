@@ -61,6 +61,10 @@ function setupNlp() {
         intent.documents.forEach(doc => manager.addDocument('zh', doc, intent.name));
     });
 
+     // 添加實體
+    manager.addNamedEntityText('people', '小明', ['zh'], ['小明']);
+    manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆']);
+
     return intents;
 }
 
