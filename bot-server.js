@@ -145,26 +145,27 @@ class ChatbotNLP {
   registerCustomHandlers() {
     // 人物信息處理器
     this.registerIntentHandler('people_info', (response) => {
+      let personName = '未知';
       if (response.entities && response.entities.length > 0) {
         const peopleEntity = response.entities.find(e => e.entity === 'people');
         if (peopleEntity) {
-          const personName = peopleEntity.option || peopleEntity.sourceText || peopleEntity.utteranceText; // 使用 sourceText 或 utteranceText
-          return `關於${personName}，我們只知道，他是Gay`;
+          personName = peopleEntity.option || peopleEntity.sourceText || peopleEntity.utteranceText; // 使用 sourceText 或 utteranceText
         }
       }
-      return response.answer || '抱歉，我沒有找到相關人物信息';
+      console.log(personName);
+      return `關於${personName}，我們只知道，他是Gay`;
     });
 
     // 產品信息處理器
     this.registerIntentHandler('product_info', (response) => {
+      let productName = '未知';
       if (response.entities && response.entities.length > 0) {
         const productEntity = response.entities.find(e => e.entity === 'product');
         if (productEntity) {
-          const productName = productEntity.option || productEntity.sourceText || productEntity.utteranceText; // 使用 sourceText 或 utteranceText
-          return `關於${productName}，我們有多種型號可供選擇。您有特定需求嗎？`;
+          productName = productEntity.option || productEntity.sourceText || productEntity.utteranceText; // 使用 sourceText 或 utteranceText
         }
       }
-      return response.answer || '抱歉，我沒有找到相關產品信息';
+      return `關於${productName}，我們有多種型號可供選擇。您有特定需求嗎？`;
     });
   }
 
