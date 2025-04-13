@@ -72,20 +72,13 @@ manager.addAnswer('zh', 'product_info', '關於{{product}}，我們有多種型�
 manager.addNamedEntityText('people', '張三', ['zh'], ['張三', '張先生']);
 manager.addNamedEntityText('people', '李四', ['zh'], ['李四', '李先生']);
 manager.addNamedEntityText('people', '王五', ['zh'], ['王五', '王先生']);
-manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆']);
 manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆', '闈霆']);
-
-// 可以添加更多人名...
 
 // 人物詢問意圖
 manager.addDocument('zh', '我想了解%people%', 'people_info');
 manager.addDocument('zh', '誰是%people%', 'people_info');
 manager.addDocument('zh', '%people%有什麼特點', 'people_info');
 manager.addDocument('zh', '介紹%people%', 'people_info');
-
-// 使用字符串模板而非函數
-manager.addAnswer('zh', 'people_info', '關於{{people}}，我們只知道，他是Gay');
-manager.addAnswer('zh', 'people_info', '{{people}}是Gay');
 
 // 使用內存存儲來跟踪會話
 const sessions = {};
@@ -101,8 +94,7 @@ const sessions = {};
 })();
 
 function startServer() {
-    // 只保留一個 API 端點
-       // 修改 API 端點處理函數
+    // API 端點處理函數
     app.post('/api/chat', async (req, res) => {
         console.log('收到聊天請求:', req.body);
         try {
@@ -122,29 +114,43 @@ function startServer() {
             console.log('處理訊息:', message);
             const response = await manager.process('zh', message);
             console.log('NLP 回應:', JSON.stringify(response, null, 2));
-            console.log('實體:', response.entities);
             
-            // 手動替換回應中的變數 - 處理單括號和雙括號的情況
-            let answer = response.answer;
-            if (answer && response.entities && response.entities.length > 0) {
-                response.entities.forEach(entity => {
-                    // 替換雙括號格式 {{entity}}
-                    const doublePlaceholder = `{{${entity.entity}}}`;
-                    answer = answer.replace(new RegExp(doublePlaceholder, 'g'), entity.option || entity.utteranceText);
-                    
-                    // 替換單括號格式 {entity}
-                    const singlePlaceholder = `{${entity.entity}}`;
-                    answer = answer.replace(new RegExp(singlePlaceholder, 'g'), entity.option || entity.utteranceText);
-                });
+            let finalAnswer = '';
+            
+            // 特殊處理 people_info 意圖
+            if (response.intent === 'people_info' && response.entities && response.entities.length > 0) {
+                const peopleEntity = response.entities.find(e => e.entity === 'people');
+                if (peopleEntity) {
+                    const personName = peopleEntity.option || peopleEntity.utteranceText;
+                    finalAnswer = `${personName}是Gay`;
+                    console.log(`找到人物: ${personName}, 構建回應: ${finalAnswer}`);
+                } else {
+                    finalAnswer = response.answer || '抱歉，我沒有找到相關人物信息';
+                }
+            } 
+            // 處理其他意圖
+            else {
+                finalAnswer = response.answer;
+                
+                // 替換其他意圖中的變數（如產品等）
+                if (finalAnswer && response.entities && response.entities.length > 0) {
+                    for (const entity of response.entities) {
+                        const placeholder = `{{${entity.entity}}}`;
+                        const entityValue = entity.option || entity.utteranceText;
+                        finalAnswer = finalAnswer.replace(new RegExp(placeholder, 'g'), entityValue);
+                    }
+                }
             }
             
+            console.log('最終回應:', finalAnswer);
+            
             // 添加到歷史記錄
-            if (answer) {
-                sessions[sessionId].history.push({ role: 'bot', content: answer });
+            if (finalAnswer) {
+                sessions[sessionId].history.push({ role: 'bot', content: finalAnswer });
             }
             
             // 提高信心閾值
-            if (!answer || response.score < 0.7) {
+            if (!finalAnswer || response.score < 0.7) {
                 res.json({
                     answer: '請繼續輸入您的問題，我在聆聽...',
                     intent: response.intent,
@@ -153,7 +159,7 @@ function startServer() {
                 });
             } else {
                 res.json({
-                    answer: answer,
+                    answer: finalAnswer,
                     intent: response.intent,
                     score: response.score,
                     sessionId: sessionId,
@@ -165,8 +171,6 @@ function startServer() {
             res.status(500).json({ error: '處理請求時發生錯誤' });
         }
     });
-    
-
 
     // 處理 SPA 路由 (如果您使用前端框架)
     app.get('*', (req, res) => {
@@ -178,9 +182,3 @@ function startServer() {
         console.log(`服務器運行於 http://localhost:${PORT}`);
     });
 }
-
-
-// 在回應處理前後添加日誌
-console.log('原始回應:', response.answer);
-console.log('替換後回應:', answer);
-
