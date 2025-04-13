@@ -73,6 +73,8 @@ manager.addNamedEntityText('people', '張三', ['zh'], ['張三', '張先生']);
 manager.addNamedEntityText('people', '李四', ['zh'], ['李四', '李先生']);
 manager.addNamedEntityText('people', '王五', ['zh'], ['王五', '王先生']);
 manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆']);
+manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆', '闈霆']);
+
 // 可以添加更多人名...
 
 // 人物詢問意圖
@@ -100,6 +102,7 @@ const sessions = {};
 
 function startServer() {
     // 只保留一個 API 端點
+       // 修改 API 端點處理函數
     app.post('/api/chat', async (req, res) => {
         console.log('收到聊天請求:', req.body);
         try {
@@ -117,35 +120,27 @@ function startServer() {
             sessions[sessionId].history.push({ role: 'user', content: message });
             
             console.log('處理訊息:', message);
-            const response = await manager.process('zh', message, sessions[sessionId].context);
+            const response = await manager.process('zh', message);
             console.log('NLP 回應:', JSON.stringify(response, null, 2));
+            console.log('實體:', response.entities);
             
-            // 更新上下文
-            if (response.entities && response.entities.length > 0) {
-                response.entities.forEach(entity => {
-                    sessions[sessionId].context[entity.entity] = entity.option;
-                });
-            }
-            
-            // 手動替換回應中的變數
+            // 手動替換回應中的變數 - 處理單括號和雙括號的情況
             let answer = response.answer;
             if (answer && response.entities && response.entities.length > 0) {
                 response.entities.forEach(entity => {
-                    const placeholder = `{{${entity.entity}}}`;
-                    answer = answer.replace(new RegExp(placeholder, 'g'), entity.option);
+                    // 替換雙括號格式 {{entity}}
+                    const doublePlaceholder = `{{${entity.entity}}}`;
+                    answer = answer.replace(new RegExp(doublePlaceholder, 'g'), entity.option || entity.utteranceText);
+                    
+                    // 替換單括號格式 {entity}
+                    const singlePlaceholder = `{${entity.entity}}`;
+                    answer = answer.replace(new RegExp(singlePlaceholder, 'g'), entity.option || entity.utteranceText);
                 });
             }
             
             // 添加到歷史記錄
             if (answer) {
                 sessions[sessionId].history.push({ role: 'bot', content: answer });
-            }
-            
-            console.log(`收到的輸入: "${message}", 長度: ${message.length}, 識別的意圖: ${response.intent}, 信心分數: ${response.score}`);
-            
-            // 如果是極短輸入但仍觸發了回應，記錄下來以便改進
-            if (message.length < 3 && response.score > 0.5) {
-                console.warn(`警告: 極短輸入 "${message}" 觸發了高信心回應: ${response.intent} (${response.score})`);
             }
             
             // 提高信心閾值
@@ -161,7 +156,8 @@ function startServer() {
                     answer: answer,
                     intent: response.intent,
                     score: response.score,
-                    sessionId: sessionId
+                    sessionId: sessionId,
+                    entities: response.entities // 返回實體以便前端調試
                 });
             }
         } catch (error) {
@@ -169,6 +165,8 @@ function startServer() {
             res.status(500).json({ error: '處理請求時發生錯誤' });
         }
     });
+    
+
 
     // 處理 SPA 路由 (如果您使用前端框架)
     app.get('*', (req, res) => {
@@ -180,3 +178,9 @@ function startServer() {
         console.log(`服務器運行於 http://localhost:${PORT}`);
     });
 }
+
+
+// 在回應處理前後添加日誌
+console.log('原始回應:', response.answer);
+console.log('替換後回應:', answer);
+
