@@ -69,9 +69,55 @@ async function trainNlp() {
     return intents;
 }
 
-// 添加根路徑的 GET 處理器
+// 添加首頁的 GET 處理器，顯示聊天界面
 app.get('/', (req, res) => {
-    res.send('歡迎來到聊天機器人 API！請使用 POST 請求到 /api/chat 進行對話。');
+    res.send(`
+        <html>
+            <head>
+                <title>聊天機器人</title>
+                <style>
+                    body { font-family: Arial, sans-serif; }
+                    #chat { width: 300px; margin: 20px auto; }
+                    #messages { border: 1px solid #ccc; padding: 10px; height: 200px; overflow-y: scroll; }
+                    #input { width: calc(100% - 22px); margin-top: 10px; }
+                </style>
+            </head>
+            <body>
+                <div id="chat">
+                    <h2>聊天機器人</h2>
+                    <div id="messages"></div>
+                    <input id="input" type="text" placeholder="輸入訊息..." />
+                    <button onclick="sendMessage()">發送</button>
+                </div>
+                <script>
+                    function sendMessage() {
+                        const input = document.getElementById('input');
+                        const message = input.value;
+                        if (!message) return;
+                        
+                        const messagesDiv = document.getElementById('messages');
+                        messagesDiv.innerHTML += '<div><strong>你:</strong> ' + message + '</div>';
+                        
+                        fetch('/api/chat', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ message })
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            messagesDiv.innerHTML += '<div><strong>機器人:</strong> ' + data.answer + '</div>';
+                            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+                        })
+                        .catch(error => {
+                            messagesDiv.innerHTML += '<div><strong>錯誤:</strong> 無法連接到伺服器。</div>';
+                        });
+                        
+                        input.value = '';
+                    }
+                </script>
+            </body>
+        </html>
+    `);
 });
 
 // 處理聊天請求
