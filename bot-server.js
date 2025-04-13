@@ -155,7 +155,7 @@ function startServer() {
             }
             
             // 提高信心閾值
-            if (!finalAnswer || response.score < 0.7) {
+            if (!finalAnswer || response.score < 0.6) {
                 res.json({
                     answer: '請繼續輸入您的問題，我在聆聽...',
                     intent: response.intent,
