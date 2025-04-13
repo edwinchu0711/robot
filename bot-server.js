@@ -10,7 +10,6 @@ const manager = new NlpManager({ languages: ['zh'], forceNER: true });
 
 // 設定 NLP 訓練資料
 function setupNlp() {
-    // 設定意圖和回答
     const intents = [
         {
             name: 'greetings',
@@ -54,7 +53,6 @@ function setupNlp() {
         }
     ];
 
-    // 訓練意圖
     intents.forEach(intent => {
         intent.documents.forEach(doc => manager.addDocument('zh', doc, intent.name));
     });
@@ -71,6 +69,11 @@ async function trainNlp() {
     return intents;
 }
 
+// 添加根路徑的 GET 處理器
+app.get('/', (req, res) => {
+    res.send('歡迎來到聊天機器人 API！請使用 POST 請求到 /api/chat 進行對話。');
+});
+
 // 處理聊天請求
 app.post('/api/chat', async (req, res) => {
     const { message } = req.body;
@@ -83,7 +86,6 @@ app.post('/api/chat', async (req, res) => {
         const response = await manager.process('zh', message);
         let answer = '抱歉，我不太理解您的意思。能否換個方式表達？';
 
-        // 查找對應的意圖並生成回答
         const intent = intents.find(i => i.name === response.intent);
         if (intent) {
             const entities = {};
