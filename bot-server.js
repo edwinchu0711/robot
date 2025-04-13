@@ -78,7 +78,7 @@ manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆', '闈霆'
 manager.addDocument('zh', '我想了解%people%', 'people_info');
 manager.addDocument('zh', '誰是%people%', 'people_info');
 manager.addDocument('zh', '%people%有什麼特點', 'people_info');
-manager.addDocument('zh', '介紹%people%', 'people_info');
+manager.addDocument('zh', '介紹%people%這個人是誰', 'people_info');
 
 // 使用內存存儲來跟踪會話
 const sessions = {};
