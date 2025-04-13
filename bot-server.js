@@ -80,6 +80,11 @@ manager.addDocument('zh', '誰是%people%', 'people_info');
 manager.addDocument('zh', '%people%有什麼特點', 'people_info');
 manager.addDocument('zh', '介紹%people%這個人是誰', 'people_info');
 
+// 使用一致的雙括號格式
+manager.addAnswer('zh', 'people_info', '關於{{people}}，我們只知道，他是Gay');
+manager.addAnswer('zh', 'people_info', '{{people}}是Gay');
+
+
 // 使用內存存儲來跟踪會話
 const sessions = {};
 
