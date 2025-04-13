@@ -74,16 +74,22 @@ manager.addNamedEntityText('people', '李四', ['zh'], ['李四', '李先生']);
 manager.addNamedEntityText('people', '王五', ['zh'], ['王五', '王先生']);
 manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆', '闈霆']);
 
-// 人物詢問意圖
-manager.addDocument('zh', '我想了解%people%', 'people_info');
+// 定義 'people' 實體 (很重要! 讓 NLP 知道 %people% 或 {{people}} 代表的是人名實體)
+manager.addNamedEntity('people', 'trim'); // 使用 'trim' 預設處理器，可以根據需要調整
+
+// 人物詢問意圖 (使用 [實體值](實體名稱) 格式標註訓練語句中的實體)
+manager.addDocument('zh', '我想了解[小明](people)', 'people_info');
+manager.addDocument('zh', '誰是[王先生](people)', 'people_info');
+manager.addDocument('zh', '[李華](people)有什麼特點', 'people_info');
+manager.addDocument('zh', '介紹[陳小姐](people)這個人是誰', 'people_info');
+manager.addDocument('zh', '我想了解%people%', 'people_info'); // 保留原先的格式，但建議優先使用標註格式
 manager.addDocument('zh', '誰是%people%', 'people_info');
 manager.addDocument('zh', '%people%有什麼特點', 'people_info');
 manager.addDocument('zh', '介紹%people%這個人是誰', 'people_info');
 
-// 使用一致的雙括號格式
-manager.addAnswer('zh', 'people_info', '關於%people%，我們只知道，他是Gay');
-manager.addAnswer('zh', 'people_info', '%people%是Gay');
-
+// 使用一致的雙括號格式 {{people}}，並確保與實體名稱 'people' 一致
+manager.addAnswer('zh', 'people_info', '關於{{people}}，我們只知道，他是Gay');
+manager.addAnswer('zh', 'people_info', '{{people}}是Gay');
 
 // 使用內存存儲來跟踪會話
 const sessions = {};
