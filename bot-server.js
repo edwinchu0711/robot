@@ -152,6 +152,7 @@ class ChatbotNLP {
           personName = peopleEntity.option || peopleEntity.sourceText || peopleEntity.utteranceText; // 使用 sourceText 或 utteranceText
         }
       }
+      alert(personName)
       console.log(personName);
       return `關於${personName}，我們只知道，他是Gay`;
     });
