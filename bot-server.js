@@ -68,7 +68,12 @@ manager.addDocument('zh', '%product%有什麼特點', 'product_info');
 // 根據不同產品回答
 manager.addAnswer('zh', 'product_info', '關於{{product}}，我們有多種型號可供選擇。您有特定需求嗎？');
 
-
+// 添加 people 實體
+manager.addNamedEntityText('people', '張三', ['zh'], ['陳闈霆', '張先生']);
+manager.addNamedEntityText('people', '李四', ['zh'], ['陳闈霆', '李先生']);
+manager.addNamedEntityText('people', '王五', ['zh'], ['陳闈霆', '王先生']);
+manager.addNamedEntityText('people', '陳闈霆', ['zh'], ['陳闈霆', '王先生']);
+// 可以添加更多人名...
 // 產品詢問意圖
 manager.addDocument('zh', '我想了解%people%', 'people_info');
 manager.addDocument('zh', '誰是%people%', 'people_info');
@@ -76,8 +81,15 @@ manager.addDocument('zh', '%people%有什麼特點', 'people_info');
 manager.addDocument('zh', '介紹%people%', 'people_info');
 
 // 根據不同產品回答
-manager.addAnswer('zh', 'people_info', '關於{{people}}，我們只知道，他是Gay');
-manager.addAnswer('zh', 'people_info', '{{people}}是Gay');
+// 修改回應處理方式
+manager.addAnswer('zh', 'people_info', (data) => {
+    return `關於${data.people}，我們只知道，他是Gay`;
+});
+// 修改回應處理方式
+manager.addAnswer('zh', 'people_info', (data) => {
+    return `${data.people}是Gay`;
+});
+
 
 
 
