@@ -1,0 +1,22 @@
+{
+  "name": "your-chatbot-project",
+  "version": "1.0.0",
+  "description": "Web chatbot with NLP.js",
+  "main": "bot-server.js",
+  "scripts": {
+    "start": "node bot-server.js",
+    "dev": "nodemon bot-server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-nlp": "^4.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
