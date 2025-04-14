@@ -4,8 +4,8 @@
   "description": "Web chatbot with NLP.js",
   "main": "index.js",
   "scripts": {
-    "start": "node bot-server.js",
-    "dev": "nodemon bot-server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
