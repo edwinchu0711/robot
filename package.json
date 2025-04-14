@@ -2,7 +2,7 @@
   "name": "your-chatbot-project",
   "version": "1.0.0",
   "description": "Web chatbot with NLP.js",
-  "main": "bot-server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node bot-server.js",
     "dev": "nodemon bot-server.js"
