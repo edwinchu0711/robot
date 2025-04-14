@@ -1,1 +1,3394 @@
-
+{
+  "settings": {
+    "languages": [
+      "zh"
+    ],
+    "forceNER": true,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "zh"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "zh": {
+        "settings": {
+          "locale": "zh",
+          "trainByDomain": false,
+          "tag": "domain-manager-zh",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "hao3,ni3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hai1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ha1,luo1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "an1,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "an1,wan3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "an1,wu3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hei1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,nin2": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "an1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hai1,yo1,yo5": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ha1,lou2": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "a1,a2,a3,a4,a5,hao3,ni3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,ni3,ya5": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,shang5,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,hao4,wu3,xia4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,shang4,wan3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,hao4,wan3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bu5,hao3,jian4,jiu3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,hao4,jin4,ma3,ma5,zui4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "he2,jin4,lai2,ru2": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bie2,lai2,wu2,yang4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hui4,xing4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "chu1,ci4,jian4,mian4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "dao4,gao1,hen3,jian4,ni3,xing4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "dao4,hao3,hao4,jian4,ni3,zhen1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "da3,rao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "qing3,wen4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bu4,hao3,si5,yi4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ma3,ma5,zai4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ma3,ma5,xian4,zai4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ma3,ma5,ren2,you3,zai4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bang1,ke3,ma3,ma5,mang2,yi3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "xie2,xu1,yao4,zhu4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "jiao4,qing3,wo3,xiang3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "liao2,ma3,ma5,neng2": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bian4,fang1,hua4,ma3,ma5,shuo1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "kong4,ma3,ma5,you3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ma3,ma5,mang2,ni3,zai4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "da2,da3,ge4,hu5,zhao1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "qing3,wen4,xia4,yi1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hei1,ma3,ma5,zai4,，": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "wen4,wo3,xiang3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bang1,ge4,ma3,ma5,mang2,neng2": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ma3,ma5,ren2,you3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,ji1,ni3,qi4,ren2": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bang1,hao3,ni3,shou3,xiao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,ni3,shou3,zhu4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "fu2,ke4,xian4,zai4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "fu2,hao3,ke4,ni3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ge4,ti2,wen4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bang1,wo3,xu1,yao4,zhu4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "da2,hui2,ma3,ma5,neng2,wo3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "jie3,liao3,wo3,xiang3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ke3,ma3,ma5,ni3,wen4,yi3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "da3,rao3,xia4,yi1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ge4,jiao4,qing3,ti2,wen4,yi1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ti2,wen4,xiang3,you3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "wen4,wo3,xiang3,xun2": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ke3,qing3,wen4,yi3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hei1,ji1,qi4,ren2,，": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bang1,hai1,shou3,xiao3,，": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bang1,hao3,ma3,ma5,neng2,ni3,wo3,，": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ma3,ma5,ti2,wen4,wo3,you3,zai4,，": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bang1,ma3,ma5,mang2,neng2,ren2,you3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "fu2,ke4,ma3,ma5,you3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "liao2,ren2,wo3,xiang3,zhao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "jiao1,ke3,ma3,ma5,tan2,yi3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "liao2,ma3,ma5,neng2,tian1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "liao2,wo3,xiang3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "lai2,wo3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hui2,lai5,wo3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "lai2,le5,wo3,you4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "wo3,zai4,zhe4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "shui4,shuo1,wo3,xiang3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hua4,shuo1,wo3,yao4,you3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "tan2,wo3,xiang3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ma3,ma5,neng2,tan2": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "jiao1,ke3,liu2,ma3,ma5,yi3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "jiao1,liu2,wo3,xiang3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "ya5,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "a1,a2,a3,a4,a5,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "a1,a2,a3,a4,a5,hao3,shang5,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "a1,a2,a3,a4,a5,an1,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "chuang2,qi3,shang5,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "niao3,qi3,r5,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "qi3,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "da4,yi1,zao3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,hao4,wu3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,hao4,wu3,zhong1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,hao4,jian1,jian4,wu3": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "an1,ri4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,hao4,jian1,ri4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hou4,jian1,ri4,wen4": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "bai2,hao3,hao4,tian1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "guang1,mei4,ming2,yang2": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "hao3,hao4,qi4,tian1,zhen1": {
+            "intent": "greetings",
+            "domain": "default"
+          },
+          "chen2,jie3,liao3,ting2,wei2,wo3,xiang3": {
+            "intent": "people_info_陳闈霆",
+            "domain": "default"
+          },
+          "chen2,shei2,shi4,ting2,wei2": {
+            "intent": "people_info_陳闈霆",
+            "domain": "default"
+          },
+          "chen2,dian3,me5,shen2,te4,ting2,wei2,you3": {
+            "intent": "people_info_陳闈霆",
+            "domain": "default"
+          },
+          "chen2,ge5,jie4,ren2,shao4,shei2,shi4,ting2,wei2,zhe4": {
+            "intent": "people_info_陳闈霆",
+            "domain": "default"
+          },
+          "chen2,ting2,wei2": {
+            "intent": "people_info_陳闈霆",
+            "domain": "default"
+          },
+          "an1,jian3,jie3,liao3,wo3,xiang3,yu4": {
+            "intent": "people_info_簡昱安",
+            "domain": "default"
+          },
+          "an1,jian3,shei2,shi4,yu4": {
+            "intent": "people_info_簡昱安",
+            "domain": "default"
+          },
+          "an1,dian3,jian3,me5,shen2,te4,you3,yu4": {
+            "intent": "people_info_簡昱安",
+            "domain": "default"
+          },
+          "an1,ge5,jian3,jie4,ren2,shao4,shei2,shi4,yu4,zhe4": {
+            "intent": "people_info_簡昱安",
+            "domain": "default"
+          },
+          "an1,jian3,yu4": {
+            "intent": "people_info_簡昱安",
+            "domain": "default"
+          },
+          "bo4,huang2,jie3,liao3,wei3,wo3,xiang3": {
+            "intent": "people_info_黃柏瑋",
+            "domain": "default"
+          },
+          "bo4,huang2,shei2,shi4,wei3": {
+            "intent": "people_info_黃柏瑋",
+            "domain": "default"
+          },
+          "bo4,dian3,huang2,me5,shen2,te4,wei3,you3": {
+            "intent": "people_info_黃柏瑋",
+            "domain": "default"
+          },
+          "bo4,ge5,huang2,jie4,ren2,shao4,shei2,shi4,wei3,zhe4": {
+            "intent": "people_info_黃柏瑋",
+            "domain": "default"
+          },
+          "bo4,huang2,wei3": {
+            "intent": "people_info_黃柏瑋",
+            "domain": "default"
+          },
+          "shi4,wo3": {
+            "intent": "user.introduction",
+            "domain": "default"
+          },
+          "jiao4,wo3": {
+            "intent": "user.introduction",
+            "domain": "default"
+          },
+          "ming2,shi4,wo3,zi5": {
+            "intent": "user.introduction",
+            "domain": "default"
+          },
+          "jiao4,ke3,ni3,wo3,yi3": {
+            "intent": "user.introduction",
+            "domain": "default"
+          },
+          "wo3,xing4": {
+            "intent": "user.introduction",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "greetings": "default",
+          "people_info_陳闈霆": "default",
+          "people_info_簡昱安": "default",
+          "people_info_黃柏瑋": "default",
+          "user.introduction": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "你好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "嗨",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "哈囉",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早安",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "晚安",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "午安",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "嘿",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "您好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "安安",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "嗨喲",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "哈嘍",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "你好啊",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "嗨嗨",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "你好呀",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早上好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "下午好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "晚上好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "晚好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "好久不見",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "最近好嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "近來如何",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "別來無恙",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "幸會",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "初次見面",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "很高興見到你",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "見到你真好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "打擾了",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "請問",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "不好意思",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "在嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "在線嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "有人在嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "可以幫忙嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "需要協助",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想請教",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "能聊聊嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "方便說話嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "有空嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "你在忙嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "打個招呼",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "請問一下",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "嘿，在嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想問問",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "能幫個忙嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "有人嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "機器人你好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "小幫手你好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "助手你好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "在線客服",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "客服你好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "問個問題",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我需要幫助",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "能回答我嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想了解",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "可以問你嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "打擾一下",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "請教一個問題",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "有問題想問",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想詢問",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "請問可以",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "嘿，機器人",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "嗨，小幫手",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "你好，能幫我嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "在嗎，我有問題",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "有人能幫忙嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "有客服嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想找人聊聊",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "可以交談嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "能聊天嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想聊聊",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我來了",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我回來了",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我又來了",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我在這",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想說",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我有話要說",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想談談",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "能談談嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "可以交流嗎",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想交流",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早呀",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早啊",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早早早",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早上好啊",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早安啊",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早上起床了",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早起的鳥兒",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "早起了",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "一大早",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "午好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "中午好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "午間好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "日安",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "日間好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "日安安",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "日間問候",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "白天好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "陽光明媚",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "天氣真好",
+            "intent": "greetings"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想了解陳闈霆",
+            "intent": "people_info_陳闈霆"
+          },
+          {
+            "domain": "default",
+            "utterance": "誰是陳闈霆",
+            "intent": "people_info_陳闈霆"
+          },
+          {
+            "domain": "default",
+            "utterance": "陳闈霆有什麼特點",
+            "intent": "people_info_陳闈霆"
+          },
+          {
+            "domain": "default",
+            "utterance": "介紹陳闈霆這個人是誰",
+            "intent": "people_info_陳闈霆"
+          },
+          {
+            "domain": "default",
+            "utterance": "陳闈霆",
+            "intent": "people_info_陳闈霆"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想了解簡昱安",
+            "intent": "people_info_簡昱安"
+          },
+          {
+            "domain": "default",
+            "utterance": "誰是簡昱安",
+            "intent": "people_info_簡昱安"
+          },
+          {
+            "domain": "default",
+            "utterance": "簡昱安有什麼特點",
+            "intent": "people_info_簡昱安"
+          },
+          {
+            "domain": "default",
+            "utterance": "介紹簡昱安這個人是誰",
+            "intent": "people_info_簡昱安"
+          },
+          {
+            "domain": "default",
+            "utterance": "簡昱安",
+            "intent": "people_info_簡昱安"
+          },
+          {
+            "domain": "default",
+            "utterance": "我想了解黃柏瑋",
+            "intent": "people_info_黃柏瑋"
+          },
+          {
+            "domain": "default",
+            "utterance": "誰是黃柏瑋",
+            "intent": "people_info_黃柏瑋"
+          },
+          {
+            "domain": "default",
+            "utterance": "黃柏瑋有什麼特點",
+            "intent": "people_info_黃柏瑋"
+          },
+          {
+            "domain": "default",
+            "utterance": "介紹黃柏瑋這個人是誰",
+            "intent": "people_info_黃柏瑋"
+          },
+          {
+            "domain": "default",
+            "utterance": "黃柏瑋",
+            "intent": "people_info_黃柏瑋"
+          },
+          {
+            "domain": "default",
+            "utterance": "我是",
+            "intent": "user.introduction"
+          },
+          {
+            "domain": "default",
+            "utterance": "我叫",
+            "intent": "user.introduction"
+          },
+          {
+            "domain": "default",
+            "utterance": "我的名字是",
+            "intent": "user.introduction"
+          },
+          {
+            "domain": "default",
+            "utterance": "你可以叫我",
+            "intent": "user.introduction"
+          },
+          {
+            "domain": "default",
+            "utterance": "我姓",
+            "intent": "user.introduction"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "zh",
+              "tag": "nlu-zh",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "ni3": 1,
+              "hao3": 1,
+              "hai1": 1,
+              "ha1": 1,
+              "luo1": 1,
+              "zao3": 1,
+              "an1": 1,
+              "wan3": 1,
+              "wu3": 1,
+              "hei1": 1,
+              "nin2": 1,
+              "yo1": 1,
+              "yo5": 1,
+              "lou2": 1,
+              "a1": 1,
+              "a2": 1,
+              "a3": 1,
+              "a4": 1,
+              "a5": 1,
+              "ya5": 1,
+              "shang5": 1,
+              "xia4": 1,
+              "hao4": 1,
+              "shang4": 1,
+              "jiu3": 1,
+              "bu5": 1,
+              "jian4": 1,
+              "zui4": 1,
+              "jin4": 1,
+              "ma3": 1,
+              "ma5": 1,
+              "lai2": 1,
+              "ru2": 1,
+              "he2": 1,
+              "bie2": 1,
+              "wu2": 1,
+              "yang4": 1,
+              "xing4": 1,
+              "hui4": 1,
+              "chu1": 1,
+              "ci4": 1,
+              "mian4": 1,
+              "hen3": 1,
+              "gao1": 1,
+              "dao4": 1,
+              "zhen1": 1,
+              "da3": 1,
+              "rao3": 1,
+              "qing3": 1,
+              "wen4": 1,
+              "bu4": 1,
+              "yi4": 1,
+              "si5": 1,
+              "zai4": 1,
+              "xian4": 1,
+              "you3": 1,
+              "ren2": 1,
+              "ke3": 1,
+              "yi3": 1,
+              "bang1": 1,
+              "mang2": 1,
+              "xu1": 1,
+              "yao4": 1,
+              "xie2": 1,
+              "zhu4": 1,
+              "wo3": 1,
+              "xiang3": 1,
+              "jiao4": 1,
+              "neng2": 1,
+              "liao2": 1,
+              "fang1": 1,
+              "bian4": 1,
+              "shuo1": 1,
+              "hua4": 1,
+              "kong4": 1,
+              "da2": 1,
+              "ge4": 1,
+              "zhao1": 1,
+              "hu5": 1,
+              "yi1": 1,
+              "，": 1,
+              "ji1": 1,
+              "qi4": 1,
+              "xiao3": 1,
+              "shou3": 1,
+              "ke4": 1,
+              "fu2": 1,
+              "ti2": 1,
+              "hui2": 1,
+              "liao3": 1,
+              "jie3": 1,
+              "xun2": 1,
+              "zhao3": 1,
+              "jiao1": 1,
+              "tan2": 1,
+              "tian1": 1,
+              "lai5": 1,
+              "you4": 1,
+              "le5": 1,
+              "zhe4": 1,
+              "shui4": 1,
+              "liu2": 1,
+              "qi3": 1,
+              "chuang2": 1,
+              "niao3": 1,
+              "r5": 1,
+              "da4": 1,
+              "zhong1": 1,
+              "jian1": 1,
+              "ri4": 1,
+              "hou4": 1,
+              "bai2": 1,
+              "yang2": 1,
+              "guang1": 1,
+              "ming2": 1,
+              "mei4": 1,
+              "chen2": 1,
+              "wei2": 1,
+              "ting2": 1,
+              "shei2": 1,
+              "shi4": 1,
+              "shen2": 1,
+              "me5": 1,
+              "te4": 1,
+              "dian3": 1,
+              "jie4": 1,
+              "shao4": 1,
+              "ge5": 1,
+              "jian3": 1,
+              "yu4": 1,
+              "huang2": 1,
+              "bo4": 1,
+              "wei3": 1,
+              "zi5": 1
+            },
+            "intents": {
+              "greetings": 1,
+              "people_info_陳闈霆": 1,
+              "people_info_簡昱安": 1,
+              "people_info_黃柏瑋": 1,
+              "user.introduction": 1
+            },
+            "intentFeatures": {
+              "greetings": {
+                "ni3": 1,
+                "hao3": 1,
+                "hai1": 1,
+                "ha1": 1,
+                "luo1": 1,
+                "zao3": 1,
+                "an1": 1,
+                "wan3": 1,
+                "wu3": 1,
+                "hei1": 1,
+                "nin2": 1,
+                "yo1": 1,
+                "yo5": 1,
+                "lou2": 1,
+                "a1": 1,
+                "a2": 1,
+                "a3": 1,
+                "a4": 1,
+                "a5": 1,
+                "ya5": 1,
+                "shang5": 1,
+                "xia4": 1,
+                "hao4": 1,
+                "shang4": 1,
+                "jiu3": 1,
+                "bu5": 1,
+                "jian4": 1,
+                "zui4": 1,
+                "jin4": 1,
+                "ma3": 1,
+                "ma5": 1,
+                "lai2": 1,
+                "ru2": 1,
+                "he2": 1,
+                "bie2": 1,
+                "wu2": 1,
+                "yang4": 1,
+                "xing4": 1,
+                "hui4": 1,
+                "chu1": 1,
+                "ci4": 1,
+                "mian4": 1,
+                "hen3": 1,
+                "gao1": 1,
+                "dao4": 1,
+                "zhen1": 1,
+                "da3": 1,
+                "rao3": 1,
+                "qing3": 1,
+                "wen4": 1,
+                "bu4": 1,
+                "yi4": 1,
+                "si5": 1,
+                "zai4": 1,
+                "xian4": 1,
+                "you3": 1,
+                "ren2": 1,
+                "ke3": 1,
+                "yi3": 1,
+                "bang1": 1,
+                "mang2": 1,
+                "xu1": 1,
+                "yao4": 1,
+                "xie2": 1,
+                "zhu4": 1,
+                "wo3": 1,
+                "xiang3": 1,
+                "jiao4": 1,
+                "neng2": 1,
+                "liao2": 1,
+                "fang1": 1,
+                "bian4": 1,
+                "shuo1": 1,
+                "hua4": 1,
+                "kong4": 1,
+                "da2": 1,
+                "ge4": 1,
+                "zhao1": 1,
+                "hu5": 1,
+                "yi1": 1,
+                "，": 1,
+                "ji1": 1,
+                "qi4": 1,
+                "xiao3": 1,
+                "shou3": 1,
+                "ke4": 1,
+                "fu2": 1,
+                "ti2": 1,
+                "hui2": 1,
+                "liao3": 1,
+                "jie3": 1,
+                "xun2": 1,
+                "zhao3": 1,
+                "jiao1": 1,
+                "tan2": 1,
+                "tian1": 1,
+                "lai5": 1,
+                "you4": 1,
+                "le5": 1,
+                "zhe4": 1,
+                "shui4": 1,
+                "liu2": 1,
+                "qi3": 1,
+                "chuang2": 1,
+                "niao3": 1,
+                "r5": 1,
+                "da4": 1,
+                "zhong1": 1,
+                "jian1": 1,
+                "ri4": 1,
+                "hou4": 1,
+                "bai2": 1,
+                "yang2": 1,
+                "guang1": 1,
+                "ming2": 1,
+                "mei4": 1
+              },
+              "people_info_陳闈霆": {
+                "wo3": 1,
+                "xiang3": 1,
+                "liao3": 1,
+                "jie3": 1,
+                "chen2": 1,
+                "wei2": 1,
+                "ting2": 1,
+                "shei2": 1,
+                "shi4": 1,
+                "you3": 1,
+                "shen2": 1,
+                "me5": 1,
+                "te4": 1,
+                "dian3": 1,
+                "jie4": 1,
+                "shao4": 1,
+                "zhe4": 1,
+                "ge5": 1,
+                "ren2": 1
+              },
+              "people_info_簡昱安": {
+                "wo3": 1,
+                "xiang3": 1,
+                "liao3": 1,
+                "jie3": 1,
+                "jian3": 1,
+                "yu4": 1,
+                "an1": 1,
+                "shei2": 1,
+                "shi4": 1,
+                "you3": 1,
+                "shen2": 1,
+                "me5": 1,
+                "te4": 1,
+                "dian3": 1,
+                "jie4": 1,
+                "shao4": 1,
+                "zhe4": 1,
+                "ge5": 1,
+                "ren2": 1
+              },
+              "people_info_黃柏瑋": {
+                "wo3": 1,
+                "xiang3": 1,
+                "liao3": 1,
+                "jie3": 1,
+                "huang2": 1,
+                "bo4": 1,
+                "wei3": 1,
+                "shei2": 1,
+                "shi4": 1,
+                "you3": 1,
+                "shen2": 1,
+                "me5": 1,
+                "te4": 1,
+                "dian3": 1,
+                "jie4": 1,
+                "shao4": 1,
+                "zhe4": 1,
+                "ge5": 1,
+                "ren2": 1
+              },
+              "user.introduction": {
+                "wo3": 1,
+                "shi4": 1,
+                "jiao4": 1,
+                "ming2": 1,
+                "zi5": 1,
+                "ni3": 1,
+                "ke3": 1,
+                "yi3": 1,
+                "xing4": 1
+              }
+            },
+            "featuresToIntent": {
+              "ni3": [
+                "greetings",
+                "user.introduction"
+              ],
+              "hao3": [
+                "greetings"
+              ],
+              "hai1": [
+                "greetings"
+              ],
+              "ha1": [
+                "greetings"
+              ],
+              "luo1": [
+                "greetings"
+              ],
+              "zao3": [
+                "greetings"
+              ],
+              "an1": [
+                "greetings",
+                "people_info_簡昱安"
+              ],
+              "wan3": [
+                "greetings"
+              ],
+              "wu3": [
+                "greetings"
+              ],
+              "hei1": [
+                "greetings"
+              ],
+              "nin2": [
+                "greetings"
+              ],
+              "yo1": [
+                "greetings"
+              ],
+              "yo5": [
+                "greetings"
+              ],
+              "lou2": [
+                "greetings"
+              ],
+              "a1": [
+                "greetings"
+              ],
+              "a2": [
+                "greetings"
+              ],
+              "a3": [
+                "greetings"
+              ],
+              "a4": [
+                "greetings"
+              ],
+              "a5": [
+                "greetings"
+              ],
+              "ya5": [
+                "greetings"
+              ],
+              "shang5": [
+                "greetings"
+              ],
+              "xia4": [
+                "greetings"
+              ],
+              "hao4": [
+                "greetings"
+              ],
+              "shang4": [
+                "greetings"
+              ],
+              "jiu3": [
+                "greetings"
+              ],
+              "bu5": [
+                "greetings"
+              ],
+              "jian4": [
+                "greetings"
+              ],
+              "zui4": [
+                "greetings"
+              ],
+              "jin4": [
+                "greetings"
+              ],
+              "ma3": [
+                "greetings"
+              ],
+              "ma5": [
+                "greetings"
+              ],
+              "lai2": [
+                "greetings"
+              ],
+              "ru2": [
+                "greetings"
+              ],
+              "he2": [
+                "greetings"
+              ],
+              "bie2": [
+                "greetings"
+              ],
+              "wu2": [
+                "greetings"
+              ],
+              "yang4": [
+                "greetings"
+              ],
+              "xing4": [
+                "greetings",
+                "user.introduction"
+              ],
+              "hui4": [
+                "greetings"
+              ],
+              "chu1": [
+                "greetings"
+              ],
+              "ci4": [
+                "greetings"
+              ],
+              "mian4": [
+                "greetings"
+              ],
+              "hen3": [
+                "greetings"
+              ],
+              "gao1": [
+                "greetings"
+              ],
+              "dao4": [
+                "greetings"
+              ],
+              "zhen1": [
+                "greetings"
+              ],
+              "da3": [
+                "greetings"
+              ],
+              "rao3": [
+                "greetings"
+              ],
+              "qing3": [
+                "greetings"
+              ],
+              "wen4": [
+                "greetings"
+              ],
+              "bu4": [
+                "greetings"
+              ],
+              "yi4": [
+                "greetings"
+              ],
+              "si5": [
+                "greetings"
+              ],
+              "zai4": [
+                "greetings"
+              ],
+              "xian4": [
+                "greetings"
+              ],
+              "you3": [
+                "greetings",
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "ren2": [
+                "greetings",
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "ke3": [
+                "greetings",
+                "user.introduction"
+              ],
+              "yi3": [
+                "greetings",
+                "user.introduction"
+              ],
+              "bang1": [
+                "greetings"
+              ],
+              "mang2": [
+                "greetings"
+              ],
+              "xu1": [
+                "greetings"
+              ],
+              "yao4": [
+                "greetings"
+              ],
+              "xie2": [
+                "greetings"
+              ],
+              "zhu4": [
+                "greetings"
+              ],
+              "wo3": [
+                "greetings",
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋",
+                "user.introduction"
+              ],
+              "xiang3": [
+                "greetings",
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "jiao4": [
+                "greetings",
+                "user.introduction"
+              ],
+              "neng2": [
+                "greetings"
+              ],
+              "liao2": [
+                "greetings"
+              ],
+              "fang1": [
+                "greetings"
+              ],
+              "bian4": [
+                "greetings"
+              ],
+              "shuo1": [
+                "greetings"
+              ],
+              "hua4": [
+                "greetings"
+              ],
+              "kong4": [
+                "greetings"
+              ],
+              "da2": [
+                "greetings"
+              ],
+              "ge4": [
+                "greetings"
+              ],
+              "zhao1": [
+                "greetings"
+              ],
+              "hu5": [
+                "greetings"
+              ],
+              "yi1": [
+                "greetings"
+              ],
+              "，": [
+                "greetings"
+              ],
+              "ji1": [
+                "greetings"
+              ],
+              "qi4": [
+                "greetings"
+              ],
+              "xiao3": [
+                "greetings"
+              ],
+              "shou3": [
+                "greetings"
+              ],
+              "ke4": [
+                "greetings"
+              ],
+              "fu2": [
+                "greetings"
+              ],
+              "ti2": [
+                "greetings"
+              ],
+              "hui2": [
+                "greetings"
+              ],
+              "liao3": [
+                "greetings",
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "jie3": [
+                "greetings",
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "xun2": [
+                "greetings"
+              ],
+              "zhao3": [
+                "greetings"
+              ],
+              "jiao1": [
+                "greetings"
+              ],
+              "tan2": [
+                "greetings"
+              ],
+              "tian1": [
+                "greetings"
+              ],
+              "lai5": [
+                "greetings"
+              ],
+              "you4": [
+                "greetings"
+              ],
+              "le5": [
+                "greetings"
+              ],
+              "zhe4": [
+                "greetings",
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "shui4": [
+                "greetings"
+              ],
+              "liu2": [
+                "greetings"
+              ],
+              "qi3": [
+                "greetings"
+              ],
+              "chuang2": [
+                "greetings"
+              ],
+              "niao3": [
+                "greetings"
+              ],
+              "r5": [
+                "greetings"
+              ],
+              "da4": [
+                "greetings"
+              ],
+              "zhong1": [
+                "greetings"
+              ],
+              "jian1": [
+                "greetings"
+              ],
+              "ri4": [
+                "greetings"
+              ],
+              "hou4": [
+                "greetings"
+              ],
+              "bai2": [
+                "greetings"
+              ],
+              "yang2": [
+                "greetings"
+              ],
+              "guang1": [
+                "greetings"
+              ],
+              "ming2": [
+                "greetings",
+                "user.introduction"
+              ],
+              "mei4": [
+                "greetings"
+              ],
+              "chen2": [
+                "people_info_陳闈霆"
+              ],
+              "wei2": [
+                "people_info_陳闈霆"
+              ],
+              "ting2": [
+                "people_info_陳闈霆"
+              ],
+              "shei2": [
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "shi4": [
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋",
+                "user.introduction"
+              ],
+              "shen2": [
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "me5": [
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "te4": [
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "dian3": [
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "jie4": [
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "shao4": [
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "ge5": [
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋"
+              ],
+              "jian3": [
+                "people_info_簡昱安"
+              ],
+              "yu4": [
+                "people_info_簡昱安"
+              ],
+              "huang2": [
+                "people_info_黃柏瑋"
+              ],
+              "bo4": [
+                "people_info_黃柏瑋"
+              ],
+              "wei3": [
+                "people_info_黃柏瑋"
+              ],
+              "zi5": [
+                "user.introduction"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "zh",
+                "tag": "nlu-zh",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "ni3",
+                "hao3",
+                "hai1",
+                "ha1",
+                "luo1",
+                "zao3",
+                "an1",
+                "wan3",
+                "wu3",
+                "hei1",
+                "nin2",
+                "yo1",
+                "yo5",
+                "lou2",
+                "a1",
+                "a2",
+                "a3",
+                "a4",
+                "a5",
+                "ya5",
+                "shang5",
+                "xia4",
+                "hao4",
+                "shang4",
+                "jiu3",
+                "bu5",
+                "jian4",
+                "zui4",
+                "jin4",
+                "ma3",
+                "ma5",
+                "lai2",
+                "ru2",
+                "he2",
+                "bie2",
+                "wu2",
+                "yang4",
+                "xing4",
+                "hui4",
+                "chu1",
+                "ci4",
+                "mian4",
+                "hen3",
+                "gao1",
+                "dao4",
+                "zhen1",
+                "da3",
+                "rao3",
+                "qing3",
+                "wen4",
+                "bu4",
+                "yi4",
+                "si5",
+                "zai4",
+                "xian4",
+                "you3",
+                "ren2",
+                "ke3",
+                "yi3",
+                "bang1",
+                "mang2",
+                "xu1",
+                "yao4",
+                "xie2",
+                "zhu4",
+                "wo3",
+                "xiang3",
+                "jiao4",
+                "neng2",
+                "liao2",
+                "fang1",
+                "bian4",
+                "shuo1",
+                "hua4",
+                "kong4",
+                "da2",
+                "ge4",
+                "zhao1",
+                "hu5",
+                "yi1",
+                "，",
+                "ji1",
+                "qi4",
+                "xiao3",
+                "shou3",
+                "ke4",
+                "fu2",
+                "ti2",
+                "hui2",
+                "liao3",
+                "jie3",
+                "xun2",
+                "zhao3",
+                "jiao1",
+                "tan2",
+                "tian1",
+                "lai5",
+                "you4",
+                "le5",
+                "zhe4",
+                "shui4",
+                "liu2",
+                "qi3",
+                "chuang2",
+                "niao3",
+                "r5",
+                "da4",
+                "zhong1",
+                "jian1",
+                "ri4",
+                "hou4",
+                "bai2",
+                "yang2",
+                "guang1",
+                "ming2",
+                "mei4",
+                "chen2",
+                "wei2",
+                "ting2",
+                "shei2",
+                "shi4",
+                "shen2",
+                "me5",
+                "te4",
+                "dian3",
+                "jie4",
+                "shao4",
+                "ge5",
+                "jian3",
+                "yu4",
+                "huang2",
+                "bo4",
+                "wei3",
+                "zi5"
+              ],
+              "intents": [
+                "greetings",
+                "people_info_陳闈霆",
+                "people_info_簡昱安",
+                "people_info_黃柏瑋",
+                "user.introduction"
+              ],
+              "perceptrons": [
+                [
+                  0.3971675634384155,
+                  2.267444610595703,
+                  3.3233797550201416,
+                  2.3062355518341064,
+                  1.2122581005096436,
+                  2.735522985458374,
+                  1.532543420791626,
+                  1.8183835744857788,
+                  2.1787586212158203,
+                  1.882897973060608,
+                  1.1545709371566772,
+                  0.03853243589401245,
+                  0.03853243589401245,
+                  1.0939542055130005,
+                  -0.004046471789479256,
+                  -0.004046471789479256,
+                  -0.004046471789479256,
+                  -0.004046471789479256,
+                  -0.004046471789479256,
+                  0.6205116510391235,
+                  -1.8091648817062378,
+                  -1.167893648147583,
+                  -0.7252687215805054,
+                  -0.9061952233314514,
+                  0.5050257444381714,
+                  0.5050257444381714,
+                  -0.13069859147071838,
+                  -0.8163378834724426,
+                  -1.2735650539398193,
+                  1.8726235628128052,
+                  1.8726235628128052,
+                  5.498185157775879,
+                  -0.4555205702781677,
+                  -0.4555205702781677,
+                  -0.7233812212944031,
+                  -0.7233812212944031,
+                  -0.7233812212944031,
+                  -7.893095970153809,
+                  10.942511558532715,
+                  1.15106999874115,
+                  1.15106999874115,
+                  1.15106999874115,
+                  4.576192855834961,
+                  4.576192855834961,
+                  1.5992470979690552,
+                  -0.2063419371843338,
+                  1.722353219985962,
+                  1.9453049898147583,
+                  5.4440460205078125,
+                  -0.5589379668235779,
+                  0.3242793083190918,
+                  0.3242793083190918,
+                  0.3242793083190918,
+                  -0.23539909720420837,
+                  1.114121437072754,
+                  -1.5002282857894897,
+                  1.6494286060333252,
+                  -0.4815813899040222,
+                  -0.4815813899040222,
+                  0.9732185006141663,
+                  -0.4752342402935028,
+                  0.15664108097553253,
+                  3.7671730518341064,
+                  -1.1801385879516602,
+                  0.6960232853889465,
+                  -2.2442736625671387,
+                  5.040786266326904,
+                  -7.056809902191162,
+                  -1.27707040309906,
+                  0.45586705207824707,
+                  -1.6714869737625122,
+                  -1.6714869737625122,
+                  1.1442985534667969,
+                  1.937233328819275,
+                  1.1111563444137573,
+                  0.5653583407402039,
+                  1.4438978433609009,
+                  -0.22385232150554657,
+                  -0.22385232150554657,
+                  0.6562995314598083,
+                  0.10048294067382812,
+                  -1.6404507160186768,
+                  1.1478668451309204,
+                  -0.6109457015991211,
+                  -0.06848715245723724,
+                  0.7359820604324341,
+                  0.7359820604324341,
+                  2.713357448577881,
+                  3.080209493637085,
+                  0.1813141107559204,
+                  0.1813141107559204,
+                  0.9410980939865112,
+                  -1.6846941709518433,
+                  -0.01866666041314602,
+                  0.6585410833358765,
+                  0.7699347138404846,
+                  2.2975902557373047,
+                  -0.04433850571513176,
+                  -0.04433850571513176,
+                  5.660345554351807,
+                  -0.789966881275177,
+                  0.4720812141895294,
+                  0.6960237622261047,
+                  1.7044868469238281,
+                  -0.035407859832048416,
+                  -0.035407859832048416,
+                  0.03643370419740677,
+                  -0.34388113021850586,
+                  -0.08916867524385452,
+                  1.9373130798339844,
+                  2.0855724811553955,
+                  1.0783870220184326,
+                  1.211674451828003,
+                  1.211674451828003,
+                  -0.22414535284042358,
+                  1.211674451828003,
+                  -4.782610893249512,
+                  -4.782610893249512,
+                  -4.782610893249512,
+                  -2.5151009559631348,
+                  -8.78779411315918,
+                  -1.3135452270507812,
+                  -1.3135452270507812,
+                  -1.3135452270507812,
+                  -1.3135452270507812,
+                  -0.39364737272262573,
+                  -0.39364737272262573,
+                  -0.39364737272262573,
+                  -7.953238010406494,
+                  -7.953238010406494,
+                  -4.779921531677246,
+                  -4.779921531677246,
+                  -4.779921531677246,
+                  -1.361962080001831,
+                  10.726465625920401
+                ],
+                [
+                  -0.13166604936122894,
+                  -0.24960771203041077,
+                  -0.15239213407039642,
+                  -0.11196660995483398,
+                  -0.05692937970161438,
+                  -0.08293230086565018,
+                  -0.9546360969543457,
+                  -0.03104339726269245,
+                  -0.015239057131111622,
+                  -0.08428271114826202,
+                  -0.032523829489946365,
+                  -0.03514154255390167,
+                  -0.03514154255390167,
+                  -0.036227717995643616,
+                  -0.020770102739334106,
+                  -0.020770102739334106,
+                  -0.020770102739334106,
+                  -0.020770102739334106,
+                  -0.020770102739334106,
+                  -0.024503184482455254,
+                  -0.026445236057043076,
+                  -0.04140342026948929,
+                  -0.04069739207625389,
+                  -0.014920377172529697,
+                  -0.010550681501626968,
+                  -0.010550681501626968,
+                  -0.062243152409791946,
+                  -0.004695757757872343,
+                  -0.03857133537530899,
+                  -0.19336138665676117,
+                  -0.19336138665676117,
+                  -0.07168038189411163,
+                  -0.030353760346770287,
+                  -0.030353760346770287,
+                  -0.02810829132795334,
+                  -0.02810829132795334,
+                  -0.02810829132795334,
+                  -0.08846806734800339,
+                  -0.03756583109498024,
+                  -0.034277405589818954,
+                  -0.034277405589818954,
+                  -0.034277405589818954,
+                  -0.006136152893304825,
+                  -0.006136152893304825,
+                  -0.006136152893304825,
+                  0,
+                  -0.07419322431087494,
+                  -0.04785998538136482,
+                  -0.06144463270902634,
+                  -0.1879911869764328,
+                  -0.002652897732332349,
+                  -0.002652897732332349,
+                  -0.002652897732332349,
+                  -0.10518145561218262,
+                  -0.02317258156836033,
+                  -0.2014070451259613,
+                  -0.09875264018774033,
+                  -0.026261501014232635,
+                  -0.026261501014232635,
+                  -0.009146607480943203,
+                  -0.004611223470419645,
+                  -0.03424501791596413,
+                  -0.03976039960980415,
+                  -0.029702886939048767,
+                  -0.03424501791596413,
+                  -0.4513908326625824,
+                  0.023192986845970154,
+                  -0.10380183905363083,
+                  -0.0026592151261866093,
+                  -0.02022383362054825,
+                  0,
+                  0,
+                  -0.01084262877702713,
+                  -0.0024139394517987967,
+                  -0.03147047385573387,
+                  -0.016448844224214554,
+                  -0.03475463390350342,
+                  -0.016448844224214554,
+                  -0.016448844224214554,
+                  -0.026619741693139076,
+                  -0.008792300708591938,
+                  -0.006150371395051479,
+                  -0.006150371395051479,
+                  -0.0011226242640987039,
+                  -0.0011226242640987039,
+                  -0.012368584983050823,
+                  -0.012368584983050823,
+                  -0.09627127647399902,
+                  0,
+                  0.2143562138080597,
+                  0.2143562138080597,
+                  -0.004394208546727896,
+                  -0.0047893766313791275,
+                  -0.002937842393293977,
+                  -0.006302565801888704,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.024633396416902542,
+                  -0.005619126372039318,
+                  -0.002937842393293977,
+                  -0.01657712645828724,
+                  -0.003924111369997263,
+                  -0.004717053379863501,
+                  -0.004717053379863501,
+                  -0.0023617760743945837,
+                  0,
+                  -0.001142759807407856,
+                  -0.001142759807407856,
+                  -0.001142759807407856,
+                  0,
+                  -0.0029728158842772245,
+                  -0.0029728158842772245,
+                  -0.1530832201242447,
+                  -0.0029728158842772245,
+                  4.762661933898926,
+                  4.762661933898926,
+                  4.762661933898926,
+                  0.21216875314712524,
+                  -0.21148407459259033,
+                  0.050480857491493225,
+                  0.050480857491493225,
+                  0.050480857491493225,
+                  0.050480857491493225,
+                  0.024633396416902542,
+                  0.024633396416902542,
+                  0.024633396416902542,
+                  -0.9546360969543457,
+                  -0.9546360969543457,
+                  -0.8322620987892151,
+                  -0.8322620987892151,
+                  -0.8322620987892151,
+                  -0.13252177834510803,
+                  -0.002699709810395871
+                ],
+                [
+                  -0.11659225821495056,
+                  -0.11746009439229965,
+                  -0.07938221842050552,
+                  -0.05911707505583763,
+                  -0.03497147560119629,
+                  -0.9289509654045105,
+                  1.264646291732788,
+                  -0.789757490158081,
+                  -0.7651265263557434,
+                  -0.029115281999111176,
+                  -0.012728664092719555,
+                  -0.006884293630719185,
+                  -0.006884293630719185,
+                  -0.006659862585365772,
+                  -0.1919228732585907,
+                  -0.1919228732585907,
+                  -0.1919228732585907,
+                  -0.1919228732585907,
+                  -0.1919228732585907,
+                  0,
+                  0,
+                  -0.0026215112302452326,
+                  -0.003236045828089118,
+                  0,
+                  -0.003936350345611572,
+                  -0.003936350345611572,
+                  -0.016415640711784363,
+                  -0.003236045828089118,
+                  -0.01196249295026064,
+                  -0.22658182680606842,
+                  -0.22658182680606842,
+                  -0.017310786992311478,
+                  -0.007108424324542284,
+                  -0.007108424324542284,
+                  -0.006648151203989983,
+                  -0.006648151203989983,
+                  -0.006648151203989983,
+                  -0.04263836145401001,
+                  -0.0058601051568984985,
+                  -0.006256814114749432,
+                  -0.006256814114749432,
+                  -0.006256814114749432,
+                  -0.00014180652215145528,
+                  -0.00014180652215145528,
+                  -0.00014180652215145528,
+                  0,
+                  -0.013873666524887085,
+                  -0.009260616265237331,
+                  -0.010571039281785488,
+                  -0.07640241086483002,
+                  -0.0011015855707228184,
+                  -0.0011015855707228184,
+                  -0.0011015855707228184,
+                  -0.05719113349914551,
+                  -0.004301609005779028,
+                  -0.2349417358636856,
+                  -0.14847725629806519,
+                  -0.022252945229411125,
+                  -0.022252945229411125,
+                  -0.014728454872965813,
+                  -0.014728454872965813,
+                  -0.0034628859721124172,
+                  -0.0034628859721124172,
+                  -0.0034628859721124172,
+                  -0.0034628859721124172,
+                  -0.4931684732437134,
+                  0.12096145749092102,
+                  -0.08024142682552338,
+                  -0.014728454872965813,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.024096524342894554,
+                  -0.0020497655496001244,
+                  -0.0034679053351283073,
+                  -0.0020497655496001244,
+                  -0.0020497655496001244,
+                  -0.0026215112302452326,
+                  -0.006750647909939289,
+                  -0.006921811960637569,
+                  -0.006921811960637569,
+                  0,
+                  0,
+                  -0.0025514462031424046,
+                  -0.0025514462031424046,
+                  -0.06144820898771286,
+                  0,
+                  0.19544823467731476,
+                  0.19544823467731476,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.0358496718108654,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.7945341467857361,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.1816127598285675,
+                  0,
+                  -0.5921304225921631,
+                  -0.5921304225921631,
+                  -0.5921304225921631,
+                  0.27545636892318726,
+                  -0.25281503796577454,
+                  0.06343834847211838,
+                  0.06343834847211838,
+                  0.06343834847211838,
+                  0.06343834847211838,
+                  0.0358496718108654,
+                  0.0358496718108654,
+                  0.0358496718108654,
+                  7.129228591918945,
+                  7.129228591918945,
+                  -0.9622617959976196,
+                  -0.9622617959976196,
+                  -0.9622617959976196,
+                  -0.1816127598285675,
+                  -1.253080227533427
+                ],
+                [
+                  -0.28244683146476746,
+                  -0.45778176188468933,
+                  -0.20839440822601318,
+                  -0.1116795614361763,
+                  -0.05116550251841545,
+                  -0.15086179971694946,
+                  -0.865271806716919,
+                  -0.11373475193977356,
+                  -0.07876314967870712,
+                  -0.09196266531944275,
+                  -0.039322707802057266,
+                  -0.03636161610484123,
+                  -0.03636161610484123,
+                  -0.034931305795907974,
+                  -0.0256926491856575,
+                  -0.0256926491856575,
+                  -0.0256926491856575,
+                  -0.0256926491856575,
+                  -0.0256926491856575,
+                  -0.028536861762404442,
+                  -0.020968791097402573,
+                  -0.058043472468853,
+                  -0.05993242934346199,
+                  -0.015886804088950157,
+                  -0.01386782806366682,
+                  -0.01386782806366682,
+                  -0.07089581340551376,
+                  -0.010444416664540768,
+                  -0.04393824189901352,
+                  -0.392720103263855,
+                  -0.392720103263855,
+                  -0.06874675303697586,
+                  -0.028271615505218506,
+                  -0.028271615505218506,
+                  -0.026339329779148102,
+                  -0.026339329779148102,
+                  -0.026339329779148102,
+                  -0.11190647631883621,
+                  -0.024858972057700157,
+                  -0.024797044694423676,
+                  -0.024797044694423676,
+                  -0.024797044694423676,
+                  -0.009431547485291958,
+                  -0.009431547485291958,
+                  -0.009431547485291958,
+                  0,
+                  -0.07090456783771515,
+                  -0.04260167106986046,
+                  -0.046965841203927994,
+                  -0.181056946516037,
+                  -0.003880638862028718,
+                  -0.003880638862028718,
+                  -0.003880638862028718,
+                  -0.14633651077747345,
+                  -0.032986778765916824,
+                  -0.3572973310947418,
+                  -0.2476133406162262,
+                  -0.0665537565946579,
+                  -0.0665537565946579,
+                  -0.03799109533429146,
+                  -0.036760102957487106,
+                  -0.018105462193489075,
+                  -0.03525105491280556,
+                  -0.018105462193489075,
+                  -0.018105462193489075,
+                  -0.6141896843910217,
+                  0.09086702764034271,
+                  -0.1376296728849411,
+                  -0.0362313911318779,
+                  -0.018729954957962036,
+                  -0.0017519468674436212,
+                  -0.0017519468674436212,
+                  -0.021282067522406578,
+                  -0.010720781981945038,
+                  -0.029523545876145363,
+                  -0.014877996407449245,
+                  -0.032178133726119995,
+                  -0.014877996407449245,
+                  -0.014877996407449245,
+                  -0.025520088151097298,
+                  -0.04043929651379585,
+                  -0.029311342164874077,
+                  -0.029311342164874077,
+                  -0.00014965186710469425,
+                  -0.00014965186710469425,
+                  -0.015391097404062748,
+                  -0.015391097404062748,
+                  -0.09738166630268097,
+                  0,
+                  0.26277288794517517,
+                  0.26277288794517517,
+                  0,
+                  -0.0036455788649618626,
+                  -0.004506206605583429,
+                  -0.005560244433581829,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.0616665743291378,
+                  -0.006076868623495102,
+                  -0.004506206605583429,
+                  -0.0018884035525843501,
+                  0,
+                  -0.0008686956134624779,
+                  -0.0008686956134624779,
+                  0,
+                  0,
+                  -0.0017038898076862097,
+                  -0.0017038898076862097,
+                  -0.0017038898076862097,
+                  0,
+                  -0.0019061379134654999,
+                  -0.0019061379134654999,
+                  -0.2069879174232483,
+                  -0.0019061379134654999,
+                  -0.7463334798812866,
+                  -0.7463334798812866,
+                  -0.7463334798812866,
+                  0.2623472809791565,
+                  -0.25939056277275085,
+                  0.08988187462091446,
+                  0.08988187462091446,
+                  0.08988187462091446,
+                  0.08988187462091446,
+                  0.0616665743291378,
+                  0.0616665743291378,
+                  0.0616665743291378,
+                  -0.5356673002243042,
+                  -0.5356673002243042,
+                  4.828349590301514,
+                  4.828349590301514,
+                  4.828349590301514,
+                  -0.17542000114917755,
+                  -0.20118287712648217
+                ],
+                [
+                  -0.9350131154060364,
+                  -1.0839965343475342,
+                  -0.5022696852684021,
+                  -0.3624381422996521,
+                  -0.15606816112995148,
+                  -0.19345609843730927,
+                  -1.3479855060577393,
+                  -0.1949116736650467,
+                  -0.15689082443714142,
+                  -0.19310623407363892,
+                  -0.09291408956050873,
+                  -0.10599756240844727,
+                  -0.10599756240844727,
+                  -0.13686159253120422,
+                  -0.11560066044330597,
+                  -0.11560066044330597,
+                  -0.11560066044330597,
+                  -0.11560066044330597,
+                  -0.11560066044330597,
+                  -0.11109333485364914,
+                  -0.02483220584690571,
+                  -0.031635623425245285,
+                  -0.07995455712080002,
+                  -0.016880840063095093,
+                  -0.015075507573783398,
+                  -0.015075507573783398,
+                  -1.1331806182861328,
+                  -0.011297809891402721,
+                  -0.10201464593410492,
+                  -1.4043294191360474,
+                  -1.4043294191360474,
+                  -7.387000560760498,
+                  -0.08224347978830338,
+                  -0.08224347978830338,
+                  -0.07490205764770508,
+                  -0.07490205764770508,
+                  -0.07490205764770508,
+                  6.855031490325928,
+                  -5.005425930023193,
+                  -0.07444189488887787,
+                  -0.07444189488887787,
+                  -0.07444189488887787,
+                  -0.9816866517066956,
+                  -0.9816866517066956,
+                  -0.9910861253738403,
+                  -0.004699760116636753,
+                  -0.1384662240743637,
+                  -0.09954732656478882,
+                  -6.107974052429199,
+                  -1.3049262762069702,
+                  0,
+                  0,
+                  0,
+                  -3.741962194442749,
+                  -0.03646598383784294,
+                  -1.5733531713485718,
+                  -0.41623592376708984,
+                  0.4786666929721832,
+                  0.4786666929721832,
+                  -1.7028698921203613,
+                  -0.18451976776123047,
+                  -1.408388614654541,
+                  -2.8786497116088867,
+                  -0.024576963856816292,
+                  -1.408388614654541,
+                  9.230560302734375,
+                  -8.152870178222656,
+                  6.869863986968994,
+                  -0.7979386448860168,
+                  -0.6189178228378296,
+                  0,
+                  0,
+                  -1.4738290309906006,
+                  -1.4701672792434692,
+                  0,
+                  -0.639701783657074,
+                  -0.12110389024019241,
+                  -0.020976658910512924,
+                  -0.020976658910512924,
+                  -0.09102180600166321,
+                  -0.20308232307434082,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.001126650720834732,
+                  -0.001126650720834732,
+                  -0.16983236372470856,
+                  -4.028882026672363,
+                  -0.543984591960907,
+                  -0.543984591960907,
+                  -0.19072376191616058,
+                  -0.233584925532341,
+                  -0.09176580607891083,
+                  -0.09176580607891083,
+                  0,
+                  -3.365952730178833,
+                  -0.9557047486305237,
+                  -0.9557047486305237,
+                  -3.6521613597869873,
+                  -0.0018309307051822543,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.33391472697257996,
+                  -0.33391472697257996,
+                  -0.18695689737796783,
+                  -0.33391472697257996,
+                  -0.9034417271614075,
+                  -0.9034417271614075,
+                  -0.9034417271614075,
+                  -2.486989974975586,
+                  6.899878025054932,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.11004909873008728,
+                  -0.11004909873008728,
+                  -0.11004909873008728,
+                  -0.6805499792098999,
+                  -0.6805499792098999,
+                  -0.9027865529060364,
+                  -0.9027865529060364,
+                  -0.9027865529060364,
+                  0.17392553389072418,
+                  -1.8306691239697004
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "zh",
+        "你好"
+      ],
+      [
+        "zh",
+        "嗨"
+      ],
+      [
+        "zh",
+        "哈囉"
+      ],
+      [
+        "zh",
+        "早安"
+      ],
+      [
+        "zh",
+        "晚安"
+      ],
+      [
+        "zh",
+        "午安"
+      ],
+      [
+        "zh",
+        "嘿"
+      ],
+      [
+        "zh",
+        "您好"
+      ],
+      [
+        "zh",
+        "安安"
+      ],
+      [
+        "zh",
+        "嗨喲"
+      ],
+      [
+        "zh",
+        "哈嘍"
+      ],
+      [
+        "zh",
+        "你好啊"
+      ],
+      [
+        "zh",
+        "嗨嗨"
+      ],
+      [
+        "zh",
+        "你好呀"
+      ],
+      [
+        "zh",
+        "早上好"
+      ],
+      [
+        "zh",
+        "下午好"
+      ],
+      [
+        "zh",
+        "晚上好"
+      ],
+      [
+        "zh",
+        "晚好"
+      ],
+      [
+        "zh",
+        "好久不見"
+      ],
+      [
+        "zh",
+        "最近好嗎"
+      ],
+      [
+        "zh",
+        "近來如何"
+      ],
+      [
+        "zh",
+        "別來無恙"
+      ],
+      [
+        "zh",
+        "幸會"
+      ],
+      [
+        "zh",
+        "初次見面"
+      ],
+      [
+        "zh",
+        "很高興見到你"
+      ],
+      [
+        "zh",
+        "見到你真好"
+      ],
+      [
+        "zh",
+        "打擾了"
+      ],
+      [
+        "zh",
+        "請問"
+      ],
+      [
+        "zh",
+        "不好意思"
+      ],
+      [
+        "zh",
+        "在嗎"
+      ],
+      [
+        "zh",
+        "在線嗎"
+      ],
+      [
+        "zh",
+        "有人在嗎"
+      ],
+      [
+        "zh",
+        "可以幫忙嗎"
+      ],
+      [
+        "zh",
+        "需要協助"
+      ],
+      [
+        "zh",
+        "我想請教"
+      ],
+      [
+        "zh",
+        "能聊聊嗎"
+      ],
+      [
+        "zh",
+        "方便說話嗎"
+      ],
+      [
+        "zh",
+        "有空嗎"
+      ],
+      [
+        "zh",
+        "你在忙嗎"
+      ],
+      [
+        "zh",
+        "打個招呼"
+      ],
+      [
+        "zh",
+        "請問一下"
+      ],
+      [
+        "zh",
+        "嘿，在嗎"
+      ],
+      [
+        "zh",
+        "我想問問"
+      ],
+      [
+        "zh",
+        "能幫個忙嗎"
+      ],
+      [
+        "zh",
+        "有人嗎"
+      ],
+      [
+        "zh",
+        "機器人你好"
+      ],
+      [
+        "zh",
+        "小幫手你好"
+      ],
+      [
+        "zh",
+        "助手你好"
+      ],
+      [
+        "zh",
+        "在線客服"
+      ],
+      [
+        "zh",
+        "客服你好"
+      ],
+      [
+        "zh",
+        "問個問題"
+      ],
+      [
+        "zh",
+        "我需要幫助"
+      ],
+      [
+        "zh",
+        "能回答我嗎"
+      ],
+      [
+        "zh",
+        "我想了解"
+      ],
+      [
+        "zh",
+        "可以問你嗎"
+      ],
+      [
+        "zh",
+        "打擾一下"
+      ],
+      [
+        "zh",
+        "請教一個問題"
+      ],
+      [
+        "zh",
+        "有問題想問"
+      ],
+      [
+        "zh",
+        "我想詢問"
+      ],
+      [
+        "zh",
+        "請問可以"
+      ],
+      [
+        "zh",
+        "嘿，機器人"
+      ],
+      [
+        "zh",
+        "嗨，小幫手"
+      ],
+      [
+        "zh",
+        "你好，能幫我嗎"
+      ],
+      [
+        "zh",
+        "在嗎，我有問題"
+      ],
+      [
+        "zh",
+        "有人能幫忙嗎"
+      ],
+      [
+        "zh",
+        "有客服嗎"
+      ],
+      [
+        "zh",
+        "我想找人聊聊"
+      ],
+      [
+        "zh",
+        "可以交談嗎"
+      ],
+      [
+        "zh",
+        "能聊天嗎"
+      ],
+      [
+        "zh",
+        "我想聊聊"
+      ],
+      [
+        "zh",
+        "我來了"
+      ],
+      [
+        "zh",
+        "我回來了"
+      ],
+      [
+        "zh",
+        "我又來了"
+      ],
+      [
+        "zh",
+        "我在這"
+      ],
+      [
+        "zh",
+        "我想說"
+      ],
+      [
+        "zh",
+        "我有話要說"
+      ],
+      [
+        "zh",
+        "我想談談"
+      ],
+      [
+        "zh",
+        "能談談嗎"
+      ],
+      [
+        "zh",
+        "可以交流嗎"
+      ],
+      [
+        "zh",
+        "我想交流"
+      ],
+      [
+        "zh",
+        "早"
+      ],
+      [
+        "zh",
+        "早呀"
+      ],
+      [
+        "zh",
+        "早啊"
+      ],
+      [
+        "zh",
+        "早早早"
+      ],
+      [
+        "zh",
+        "早上好啊"
+      ],
+      [
+        "zh",
+        "早安啊"
+      ],
+      [
+        "zh",
+        "早上起床了"
+      ],
+      [
+        "zh",
+        "早起的鳥兒"
+      ],
+      [
+        "zh",
+        "早起了"
+      ],
+      [
+        "zh",
+        "一大早"
+      ],
+      [
+        "zh",
+        "午好"
+      ],
+      [
+        "zh",
+        "中午好"
+      ],
+      [
+        "zh",
+        "午間好"
+      ],
+      [
+        "zh",
+        "日安"
+      ],
+      [
+        "zh",
+        "日間好"
+      ],
+      [
+        "zh",
+        "日安安"
+      ],
+      [
+        "zh",
+        "日間問候"
+      ],
+      [
+        "zh",
+        "白天好"
+      ],
+      [
+        "zh",
+        "陽光明媚"
+      ],
+      [
+        "zh",
+        "天氣真好"
+      ],
+      [
+        "zh",
+        "我想了解陳闈霆"
+      ],
+      [
+        "zh",
+        "誰是陳闈霆"
+      ],
+      [
+        "zh",
+        "陳闈霆有什麼特點"
+      ],
+      [
+        "zh",
+        "介紹陳闈霆這個人是誰"
+      ],
+      [
+        "zh",
+        "陳闈霆"
+      ],
+      [
+        "zh",
+        "我想了解簡昱安"
+      ],
+      [
+        "zh",
+        "誰是簡昱安"
+      ],
+      [
+        "zh",
+        "簡昱安有什麼特點"
+      ],
+      [
+        "zh",
+        "介紹簡昱安這個人是誰"
+      ],
+      [
+        "zh",
+        "簡昱安"
+      ],
+      [
+        "zh",
+        "我想了解黃柏瑋"
+      ],
+      [
+        "zh",
+        "誰是黃柏瑋"
+      ],
+      [
+        "zh",
+        "黃柏瑋有什麼特點"
+      ],
+      [
+        "zh",
+        "介紹黃柏瑋這個人是誰"
+      ],
+      [
+        "zh",
+        "黃柏瑋"
+      ],
+      [
+        "zh",
+        "我是"
+      ],
+      [
+        "zh",
+        "我叫"
+      ],
+      [
+        "zh",
+        "我的名字是"
+      ],
+      [
+        "zh",
+        "你可以叫我"
+      ],
+      [
+        "zh",
+        "我姓"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "zh": {
+        "greetings": [
+          {
+            "answer": "你好！有什麼我可以幫助你的嗎？"
+          },
+          {
+            "answer": "嗨！很高興見到你！"
+          },
+          {
+            "answer": "哈囉！今天有什麼需要協助的嗎？"
+          },
+          {
+            "answer": "您好！我是您的智能助手，有什麼可以為您服務的？"
+          },
+          {
+            "answer": "嗨嗨！有什麼問題想問我嗎？"
+          },
+          {
+            "answer": "你好啊！今天過得如何？"
+          },
+          {
+            "answer": "很高興為您服務！請問有什麼需要幫忙的？"
+          },
+          {
+            "answer": "歡迎！有什麼我能為您做的？"
+          },
+          {
+            "answer": "嗨！我在這裡隨時為您提供協助！"
+          },
+          {
+            "answer": "你好！我是您的AI助手，請問需要什麼幫助？"
+          },
+          {
+            "answer": "早安/午安/晚安！有什麼我可以幫您解決的問題嗎？"
+          },
+          {
+            "answer": "您好！很高興能與您交流，請問有什麼需求？"
+          },
+          {
+            "answer": "嗨！我已準備好回答您的問題！"
+          },
+          {
+            "answer": "哈囉！有什麼想法想與我分享嗎？"
+          },
+          {
+            "answer": "你好！今天我能為您做些什麼呢？"
+          },
+          {
+            "answer": "嗨！有什麼困擾著您嗎？"
+          },
+          {
+            "answer": "您好！請問有什麼我可以協助您的？"
+          },
+          {
+            "answer": "很高興見到您！有什麼我能幫上忙的嗎？"
+          },
+          {
+            "answer": "哈囉！我是您的虛擬助手，隨時為您服務！"
+          },
+          {
+            "answer": "你好！讓我知道您需要什麼幫助吧！"
+          },
+          {
+            "answer": "嗨！我能為您提供什麼服務呢？"
+          },
+          {
+            "answer": "您好！有什麼問題需要解答嗎？"
+          },
+          {
+            "answer": "很榮幸能為您服務，請問有什麼需要？"
+          },
+          {
+            "answer": "哈囉！我在這裡等著為您解答疑問！"
+          },
+          {
+            "answer": "你好！有什麼我可以協助您了解的嗎？"
+          },
+          {
+            "answer": "嗨！需要任何幫助都可以告訴我！"
+          },
+          {
+            "answer": "您好！我是您的智能對話助手，請問有什麼需求？"
+          },
+          {
+            "answer": "很高興與您交談！請問有什麼我能幫忙的？"
+          },
+          {
+            "answer": "哈囉！我已經準備好聆聽您的需求了！"
+          },
+          {
+            "answer": "你好！希望能為您提供最好的服務！"
+          }
+        ],
+        "people_info_陳闈霆": [
+          {
+            "answer": "關於陳闈霆，我們只知道，他是Gay"
+          },
+          {
+            "answer": "陳闈霆是Gay"
+          }
+        ],
+        "people_info_簡昱安": [
+          {
+            "answer": "關於簡昱安，我們只知道，他是Gay"
+          },
+          {
+            "answer": "簡昱安是Gay"
+          }
+        ],
+        "people_info_黃柏瑋": [
+          {
+            "answer": "關於黃柏瑋，我們只知道，他是Gay"
+          },
+          {
+            "answer": "黃柏瑋是Gay"
+          }
+        ],
+        "user.introduction": [
+          {
+            "answer": "您好！我是您的智能助手，有什麼我可以幫您的嗎？"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}
