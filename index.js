@@ -237,6 +237,7 @@ async function startServer() {
               flex-direction: column;
               gap: 1rem;
               height: 400px;
+              position: relative; /* 添加相對定位 */
             }
 
             .message {
@@ -355,6 +356,9 @@ async function startServer() {
               box-shadow: 0 1px 5px var(--shadow-color);
               animation: fadeIn 0.3s ease-out;
               display: none;
+              position: absolute; /* 修改為絕對定位 */
+              bottom: 0.5rem; /* 距離底部的距離 */
+              left: 1rem; /* 距離左側的距離 */
             }
 
             .typing-indicator span {
