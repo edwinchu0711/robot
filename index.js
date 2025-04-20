@@ -8,34 +8,35 @@ const manager = new NlpManager({ languages: ['zh'], forceNER: true });
 
 // 處理聊天邏輯的函數，供 GET 和 POST 請求共用
 async function processChatMessage(message) {
-  if (!message) {
-    return { error: '缺少訊息內容' };
-  }
-  
-  
+   try {
+    if (!message) {
+      return { error: '缺少訊息內容' };
+    }
     
-    // 如果不是自我介紹，則正常處理用戶輸入
-    const response = await manager.process('zh', message);
     
-    // 如果沒有找到匹配的意圖或置信度低於閾值
-    if (!response.answer || response.score < 0.7) {
+      
+      // 如果不是自我介紹，則正常處理用戶輸入
+      const response = await manager.process('zh', message);
+      
+      // 如果沒有找到匹配的意圖或置信度低於閾值
+      if (!response.answer || response.score < 0.7) {
+        return { 
+          answer: '抱歉，我不理解您的意思。請用不同的方式提問。',
+          intent: response.intent,
+          score: response.score
+        };
+      }
+      
+      // 返回回答
       return { 
-        answer: '抱歉，我不理解您的意思。請用不同的方式提問。',
+        answer: response.answer,
         intent: response.intent,
         score: response.score
       };
+    } catch (error) {
+      console.error('處理聊天請求時出錯:', error);
+      return { error: '服務器內部錯誤' };
     }
-    
-    // 返回回答
-    return { 
-      answer: response.answer,
-      intent: response.intent,
-      score: response.score
-    };
-  } catch (error) {
-    console.error('處理聊天請求時出錯:', error);
-    return { error: '服務器內部錯誤' };
-  }
 }
 
 // 啟動服務器的主函數
