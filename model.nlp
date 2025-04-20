@@ -502,6 +502,390 @@
           "wo3,xing4": {
             "intent": "user.introduction",
             "domain": "default"
+          },
+          "ni3,shei2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "jiao4,me5,ming2,ni3,shen2,zi5": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ni3,qing3,shei2,shi4,wen4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ming2,ni3,shen2,shi4,zi5": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ji3,jie4,ni3,shao4,xia4,yi1,zi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ji1,me5,ni3,qi4,ren2,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "gao4,ma3,ma5,neng2,ni3,shei2,shi4,su4,su5,wo3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ji3,jie4,ni3,qing3,shao4,zi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "fen4,me5,ni3,shen1,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "dong1,me5,ni3,shen2,shi4,xi1,xi5": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "na3,na5,nei3,ni3,shi4,wei4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "fang1,he2,ni3,shen2,sheng4,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "jue2,me5,ni3,se4,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "jiao4,me5,ni3,shen2": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "cheng1,me5,ming2,ni3,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ma3,ma5,ming2,ni3,you3,zi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "a1,a2,a3,a4,a5,ni3,shei2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "dao4,di3,ni3,shei2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "lai2,me5,ni3,shen2,shi4,tou2": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ke3,me5,ni3,shen2,yi3,zuo4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,neng2,ni3,shen2,zuo4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "gong1,me5,neng2,ni3,shen2,you3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "hui4,kuai4,me5,ni3,shen2,zuo4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bang1,me5,neng2,ni3,shen2,wo3,zuo4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,yong4,you3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "fu2,gong1,me5,neng2,ni3,shen2,ti2,wu4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bang1,mang2,me5,neng2,ni3,shen2,wo3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "gong1,na3,neng2,ni3,xie1,you3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,neng2,ni3,shen2,xie1,zuo4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "hui4,kuai4,me5,ni3,shen2": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bang1,gong1,me5,neng2,ni3,shen2,ti2,zhu4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "da2,hui2,me5,neng2,ni3,shen2,ti2,wen4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chang2,me5,ni3,shen2,te4,you3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,shi4,yong4,zuo4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,shi4,tu2,yong4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "jie3,jue2,me5,neng2,ni3,shen2,ti2,wen4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "da2,hui2,na3,neng2,ni3,ti2,wen4,xie1": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "gan4,ma5,neng2,ni3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "dong1,hui4,kuai4,me5,ni3,shen2,xi1,xi5": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bang1,me5,neng2,ni3,shen2,wo3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ben3,ling3,me5,ni3,shen2,you3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "gong1,me5,neng2,ni3,shen2,ti2,xun4,zi1": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "gao4,me5,neng2,ni3,shen2,su4,su5,wo3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "gan4,ma2,ni3,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "di4,me5,mu4,ni3,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,shi4,ze2,zhi2": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,shi4,tong3,xi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ji1,lei4,me5,ni3,qi4,ren2,shen2,shi4,xing2": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,shi4,shou3,zhu4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ai,me5,ni3,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,neng2,ni3,qing2,shen2,shi4,zuo4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "li4,me5,neng2,ni3,shen2,you3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bang1,me5,neng2,ni3,shen2,wo3,zhao3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "cheng2,me5,ni3,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "fa1,kai1,ni3,shei2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "fa1,kai1,ni3,shei2,shi4,zhe3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chan3,gong1,me5,ni3,pin3,shen2,shi4,si1": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ni3,shei2,shi4,zhi4,zuo4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,ping2,shen2,shi4,tai2": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "fu2,me5,ni3,shen2,shi4,wu4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "gong1,ju4,me5,ni3,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,shi4,ying4,yong4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "gong1,me5,neng2,ni3,shen2,shi4,yao4,zhu3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "fu4,me5,ni3,shen2,yao4,ze2,zhu3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chang2,me5,ni3,shan4,shen2": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chang2,me5,ni3,shen2,zhuan1": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "da2,jie3,me5,neng2,ni3,shen2,ti2,wen4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "da2,hui2,me5,neng2,ni3,shen2": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chu3,li3,me5,neng2,ni3,qing3,qiu2,shen2": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chu3,li3,me5,neng2,ni3,ren4,shen2,wu5": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bang1,chi1,me5,neng2,ni3,shen2,wo3,zhao3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "jian4,ma3,ma5,neng2,ni3,shi2,tui1,wu4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bang1,can1,dian3,ma3,ma5,neng2,ni3,wo3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chi1,fu4,gao4,hao3,hao4,jin4,ma3,ma5,me5,neng2,ni3,shen2,su4,su5,wo3,you3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bang1,can1,ma3,ma5,neng2,ni3,ting1,wo3,zhao3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "can1,ji1,ma3,ma5,ni3,qi4,ren2,shi4,yin3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ji1,ma3,ma5,mei3,ni3,qi4,ren2,shi2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "jian4,ma3,ma5,mei3,neng2,ni3,shi2,tui1": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bang1,chi1,ma3,ma5,neng2,ni3,wo3,zhao3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chi1,de5,ji1,me5,ni3,qi4,ren2,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "de5,ji1,me5,ni3,qi4,ren2,shen2,shi4,zuo4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "lei4,me5,ni3,shen2,shi4,shou3,xing2,zhu4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chang2,me5,ni3,shen2,shi4,zhuan1": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,qiang2,shen2,shi4,xiang4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,se4,shen2,shi4,te4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bie2,chu3,chu4,me5,ni3,shen2,te4,you3,zhi1": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bu4,he2,he4,hu2,huo2,huo4,ji1,me5,ni3,qi2,qi4,ren2,shen2,ta1,tong2,you3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ai,bie2,gen1,me5,ni3,qi2,qu1,shen2,ta1,you3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "dian3,me5,ni3,shen2,shi4,te4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "bei4,jing3,me5,ni3,shen2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ji4,ni3,she4,shei2,shi4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "ji4,ni3,she4,shei2,shi4,zhe3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chuang4,ni3,shei2,shi4,zao4": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "chuang4,ni3,shei2,shi4,zao4,zhe3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
+          },
+          "me5,ni3,shen2,shi4,zhi1,zu3": {
+            "intent": "robot.capabilities",
+            "domain": "default"
           }
         },
         "intentDict": {
@@ -509,7 +893,8 @@
           "people_info_陳闈霆": "default",
           "people_info_簡昱安": "default",
           "people_info_黃柏瑋": "default",
-          "user.introduction": "default"
+          "user.introduction": "default",
+          "robot.capabilities": "default"
         },
         "sentences": [
           {
@@ -1111,6 +1496,506 @@
             "domain": "default",
             "utterance": "我姓",
             "intent": "user.introduction"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是誰",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你叫什麼名字",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "請問你是誰",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的名字是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "介紹一下你自己",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼機器人",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "能告訴我你是誰嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "請介紹你自己",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的身份是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼東西",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是哪位",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是何方神聖",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼角色",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你叫什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的名稱是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你有名字嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是誰啊",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你到底是誰",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼來頭",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你可以做什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能做什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你有什麼功能",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你會做什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能幫我做什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你有什麼用",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能提供什麼服務",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你有什麼功能",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能幫我什麼忙",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的功能有哪些",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能做些什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你會什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能提供什麼幫助",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能回答什麼問題",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你有什麼特長",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是做什麼用的",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的用途是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的作用是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能解決什麼問題",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能回答哪些問題",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能幹嘛",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你會什麼東西",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能幫我什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你有什麼本領",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能提供什麼資訊",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能告訴我什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是幹嘛的",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的目的是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的職責是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼系統",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼類型的機器人",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼助手",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼AI",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能做什麼事情",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你有什麼能力",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能幫我找什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼程式",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是誰開發的",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的開發者是誰",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼公司的產品",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是誰製作的",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼平台",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼服務",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼工具",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼應用",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的主要功能是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你主要負責什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你擅長什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你專長什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能解答什麼問題",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能回答什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能處理什麼請求",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能處理什麼任務",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能幫我找什麼吃的",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能推薦食物嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能幫我點餐嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能告訴我附近有什麼好吃的嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能幫我找餐廳嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是餐飲機器人嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是美食機器人嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能推薦美食嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你能幫我找吃的嗎",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是吃什麼的機器人",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是做什麼的機器人",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼類型的助手",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的專長是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的強項是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的特色是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你有什麼特別之處",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你和其他機器人有什麼不同",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你跟其他AI有什麼區別",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的特點是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼背景",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的背景是什麼",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼身份",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是誰設計的",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的設計者是誰",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是誰創造的",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你的創造者是誰",
+            "intent": "robot.capabilities"
+          },
+          {
+            "domain": "default",
+            "utterance": "你是什麼組織的",
+            "intent": "robot.capabilities"
           }
         ],
         "domains": {
@@ -1260,14 +2145,109 @@
               "huang2": 1,
               "bo4": 1,
               "wei3": 1,
-              "zi5": 1
+              "zi5": 1,
+              "zi4": 1,
+              "ji3": 1,
+              "gao4": 1,
+              "su4": 1,
+              "su5": 1,
+              "shen1": 1,
+              "fen4": 1,
+              "dong1": 1,
+              "xi1": 1,
+              "xi5": 1,
+              "na3": 1,
+              "na5": 1,
+              "nei3": 1,
+              "wei4": 1,
+              "sheng4": 1,
+              "jue2": 1,
+              "se4": 1,
+              "cheng1": 1,
+              "di3": 1,
+              "tou2": 1,
+              "zuo4": 1,
+              "gong1": 1,
+              "kuai4": 1,
+              "yong4": 1,
+              "wu4": 1,
+              "xie1": 1,
+              "chang2": 1,
+              "tu2": 1,
+              "gan4": 1,
+              "ben3": 1,
+              "ling3": 1,
+              "zi1": 1,
+              "xun4": 1,
+              "ma2": 1,
+              "mu4": 1,
+              "di4": 1,
+              "zhi2": 1,
+              "ze2": 1,
+              "xi4": 1,
+              "tong3": 1,
+              "lei4": 1,
+              "xing2": 1,
+              "ai": 1,
+              "qing2": 1,
+              "li4": 1,
+              "cheng2": 1,
+              "kai1": 1,
+              "fa1": 1,
+              "zhe3": 1,
+              "si1": 1,
+              "chan3": 1,
+              "pin3": 1,
+              "zhi4": 1,
+              "ping2": 1,
+              "tai2": 1,
+              "ju4": 1,
+              "ying4": 1,
+              "zhu3": 1,
+              "fu4": 1,
+              "shan4": 1,
+              "zhuan1": 1,
+              "chu3": 1,
+              "li3": 1,
+              "qiu2": 1,
+              "ren4": 1,
+              "wu5": 1,
+              "chi1": 1,
+              "tui1": 1,
+              "shi2": 1,
+              "can1": 1,
+              "ting1": 1,
+              "yin3": 1,
+              "mei3": 1,
+              "de5": 1,
+              "qiang2": 1,
+              "xiang4": 1,
+              "zhi1": 1,
+              "chu4": 1,
+              "he4": 1,
+              "hu2": 1,
+              "huo2": 1,
+              "huo4": 1,
+              "qi2": 1,
+              "ta1": 1,
+              "tong2": 1,
+              "gen1": 1,
+              "qu1": 1,
+              "bei4": 1,
+              "jing3": 1,
+              "she4": 1,
+              "ji4": 1,
+              "chuang4": 1,
+              "zao4": 1,
+              "zu3": 1
             },
             "intents": {
               "greetings": 1,
               "people_info_陳闈霆": 1,
               "people_info_簡昱安": 1,
               "people_info_黃柏瑋": 1,
-              "user.introduction": 1
+              "user.introduction": 1,
+              "robot.capabilities": 1
             },
             "intentFeatures": {
               "greetings": {
@@ -1461,15 +2441,166 @@
                 "ke3": 1,
                 "yi3": 1,
                 "xing4": 1
+              },
+              "robot.capabilities": {
+                "ni3": 1,
+                "shi4": 1,
+                "shei2": 1,
+                "jiao4": 1,
+                "shen2": 1,
+                "me5": 1,
+                "ming2": 1,
+                "zi5": 1,
+                "qing3": 1,
+                "wen4": 1,
+                "jie4": 1,
+                "shao4": 1,
+                "yi1": 1,
+                "xia4": 1,
+                "zi4": 1,
+                "ji3": 1,
+                "ji1": 1,
+                "qi4": 1,
+                "ren2": 1,
+                "neng2": 1,
+                "gao4": 1,
+                "su4": 1,
+                "su5": 1,
+                "wo3": 1,
+                "ma3": 1,
+                "ma5": 1,
+                "shen1": 1,
+                "fen4": 1,
+                "dong1": 1,
+                "xi1": 1,
+                "xi5": 1,
+                "na3": 1,
+                "na5": 1,
+                "nei3": 1,
+                "wei4": 1,
+                "he2": 1,
+                "fang1": 1,
+                "sheng4": 1,
+                "jue2": 1,
+                "se4": 1,
+                "cheng1": 1,
+                "you3": 1,
+                "a1": 1,
+                "a2": 1,
+                "a3": 1,
+                "a4": 1,
+                "a5": 1,
+                "dao4": 1,
+                "di3": 1,
+                "lai2": 1,
+                "tou2": 1,
+                "ke3": 1,
+                "yi3": 1,
+                "zuo4": 1,
+                "gong1": 1,
+                "hui4": 1,
+                "kuai4": 1,
+                "bang1": 1,
+                "yong4": 1,
+                "ti2": 1,
+                "fu2": 1,
+                "wu4": 1,
+                "mang2": 1,
+                "xie1": 1,
+                "zhu4": 1,
+                "hui2": 1,
+                "da2": 1,
+                "te4": 1,
+                "chang2": 1,
+                "tu2": 1,
+                "jie3": 1,
+                "gan4": 1,
+                "ben3": 1,
+                "ling3": 1,
+                "zi1": 1,
+                "xun4": 1,
+                "ma2": 1,
+                "mu4": 1,
+                "di4": 1,
+                "zhi2": 1,
+                "ze2": 1,
+                "xi4": 1,
+                "tong3": 1,
+                "lei4": 1,
+                "xing2": 1,
+                "shou3": 1,
+                "ai": 1,
+                "qing2": 1,
+                "li4": 1,
+                "zhao3": 1,
+                "cheng2": 1,
+                "kai1": 1,
+                "fa1": 1,
+                "zhe3": 1,
+                "si1": 1,
+                "chan3": 1,
+                "pin3": 1,
+                "zhi4": 1,
+                "ping2": 1,
+                "tai2": 1,
+                "ju4": 1,
+                "ying4": 1,
+                "zhu3": 1,
+                "yao4": 1,
+                "fu4": 1,
+                "shan4": 1,
+                "zhuan1": 1,
+                "chu3": 1,
+                "li3": 1,
+                "qiu2": 1,
+                "ren4": 1,
+                "wu5": 1,
+                "chi1": 1,
+                "tui1": 1,
+                "jian4": 1,
+                "shi2": 1,
+                "dian3": 1,
+                "can1": 1,
+                "jin4": 1,
+                "hao3": 1,
+                "hao4": 1,
+                "ting1": 1,
+                "yin3": 1,
+                "mei3": 1,
+                "de5": 1,
+                "qiang2": 1,
+                "xiang4": 1,
+                "bie2": 1,
+                "zhi1": 1,
+                "chu4": 1,
+                "he4": 1,
+                "hu2": 1,
+                "huo2": 1,
+                "huo4": 1,
+                "qi2": 1,
+                "ta1": 1,
+                "bu4": 1,
+                "tong2": 1,
+                "gen1": 1,
+                "qu1": 1,
+                "bei4": 1,
+                "jing3": 1,
+                "she4": 1,
+                "ji4": 1,
+                "chuang4": 1,
+                "zao4": 1,
+                "zu3": 1
               }
             },
             "featuresToIntent": {
               "ni3": [
                 "greetings",
-                "user.introduction"
+                "user.introduction",
+                "robot.capabilities"
               ],
               "hao3": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "hai1": [
                 "greetings"
@@ -1509,19 +2640,24 @@
                 "greetings"
               ],
               "a1": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "a2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "a3": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "a4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "a5": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "ya5": [
                 "greetings"
@@ -1530,10 +2666,12 @@
                 "greetings"
               ],
               "xia4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "hao4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "shang4": [
                 "greetings"
@@ -1545,31 +2683,38 @@
                 "greetings"
               ],
               "jian4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "zui4": [
                 "greetings"
               ],
               "jin4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "ma3": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "ma5": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "lai2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "ru2": [
                 "greetings"
               ],
               "he2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "bie2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "wu2": [
                 "greetings"
@@ -1582,7 +2727,8 @@
                 "user.introduction"
               ],
               "hui4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "chu1": [
                 "greetings"
@@ -1600,7 +2746,8 @@
                 "greetings"
               ],
               "dao4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "zhen1": [
                 "greetings"
@@ -1612,13 +2759,16 @@
                 "greetings"
               ],
               "qing3": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "wen4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "bu4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "yi4": [
                 "greetings"
@@ -1636,46 +2786,55 @@
                 "greetings",
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "ren2": [
                 "greetings",
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "ke3": [
                 "greetings",
-                "user.introduction"
+                "user.introduction",
+                "robot.capabilities"
               ],
               "yi3": [
                 "greetings",
-                "user.introduction"
+                "user.introduction",
+                "robot.capabilities"
               ],
               "bang1": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "mang2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "xu1": [
                 "greetings"
               ],
               "yao4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "xie2": [
                 "greetings"
               ],
               "zhu4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "wo3": [
                 "greetings",
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
                 "people_info_黃柏瑋",
-                "user.introduction"
+                "user.introduction",
+                "robot.capabilities"
               ],
               "xiang3": [
                 "greetings",
@@ -1685,16 +2844,19 @@
               ],
               "jiao4": [
                 "greetings",
-                "user.introduction"
+                "user.introduction",
+                "robot.capabilities"
               ],
               "neng2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "liao2": [
                 "greetings"
               ],
               "fang1": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "bian4": [
                 "greetings"
@@ -1709,7 +2871,8 @@
                 "greetings"
               ],
               "da2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "ge4": [
                 "greetings"
@@ -1721,34 +2884,41 @@
                 "greetings"
               ],
               "yi1": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "，": [
                 "greetings"
               ],
               "ji1": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "qi4": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "xiao3": [
                 "greetings"
               ],
               "shou3": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "ke4": [
                 "greetings"
               ],
               "fu2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "ti2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "hui2": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "liao3": [
                 "greetings",
@@ -1760,13 +2930,15 @@
                 "greetings",
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "xun2": [
                 "greetings"
               ],
               "zhao3": [
-                "greetings"
+                "greetings",
+                "robot.capabilities"
               ],
               "jiao1": [
                 "greetings"
@@ -1836,7 +3008,8 @@
               ],
               "ming2": [
                 "greetings",
-                "user.introduction"
+                "user.introduction",
+                "robot.capabilities"
               ],
               "mei4": [
                 "greetings"
@@ -1853,43 +3026,51 @@
               "shei2": [
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "shi4": [
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
                 "people_info_黃柏瑋",
-                "user.introduction"
+                "user.introduction",
+                "robot.capabilities"
               ],
               "shen2": [
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "me5": [
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "te4": [
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "dian3": [
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "jie4": [
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "shao4": [
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
-                "people_info_黃柏瑋"
+                "people_info_黃柏瑋",
+                "robot.capabilities"
               ],
               "ge5": [
                 "people_info_陳闈霆",
@@ -1912,7 +3093,290 @@
                 "people_info_黃柏瑋"
               ],
               "zi5": [
-                "user.introduction"
+                "user.introduction",
+                "robot.capabilities"
+              ],
+              "zi4": [
+                "robot.capabilities"
+              ],
+              "ji3": [
+                "robot.capabilities"
+              ],
+              "gao4": [
+                "robot.capabilities"
+              ],
+              "su4": [
+                "robot.capabilities"
+              ],
+              "su5": [
+                "robot.capabilities"
+              ],
+              "shen1": [
+                "robot.capabilities"
+              ],
+              "fen4": [
+                "robot.capabilities"
+              ],
+              "dong1": [
+                "robot.capabilities"
+              ],
+              "xi1": [
+                "robot.capabilities"
+              ],
+              "xi5": [
+                "robot.capabilities"
+              ],
+              "na3": [
+                "robot.capabilities"
+              ],
+              "na5": [
+                "robot.capabilities"
+              ],
+              "nei3": [
+                "robot.capabilities"
+              ],
+              "wei4": [
+                "robot.capabilities"
+              ],
+              "sheng4": [
+                "robot.capabilities"
+              ],
+              "jue2": [
+                "robot.capabilities"
+              ],
+              "se4": [
+                "robot.capabilities"
+              ],
+              "cheng1": [
+                "robot.capabilities"
+              ],
+              "di3": [
+                "robot.capabilities"
+              ],
+              "tou2": [
+                "robot.capabilities"
+              ],
+              "zuo4": [
+                "robot.capabilities"
+              ],
+              "gong1": [
+                "robot.capabilities"
+              ],
+              "kuai4": [
+                "robot.capabilities"
+              ],
+              "yong4": [
+                "robot.capabilities"
+              ],
+              "wu4": [
+                "robot.capabilities"
+              ],
+              "xie1": [
+                "robot.capabilities"
+              ],
+              "chang2": [
+                "robot.capabilities"
+              ],
+              "tu2": [
+                "robot.capabilities"
+              ],
+              "gan4": [
+                "robot.capabilities"
+              ],
+              "ben3": [
+                "robot.capabilities"
+              ],
+              "ling3": [
+                "robot.capabilities"
+              ],
+              "zi1": [
+                "robot.capabilities"
+              ],
+              "xun4": [
+                "robot.capabilities"
+              ],
+              "ma2": [
+                "robot.capabilities"
+              ],
+              "mu4": [
+                "robot.capabilities"
+              ],
+              "di4": [
+                "robot.capabilities"
+              ],
+              "zhi2": [
+                "robot.capabilities"
+              ],
+              "ze2": [
+                "robot.capabilities"
+              ],
+              "xi4": [
+                "robot.capabilities"
+              ],
+              "tong3": [
+                "robot.capabilities"
+              ],
+              "lei4": [
+                "robot.capabilities"
+              ],
+              "xing2": [
+                "robot.capabilities"
+              ],
+              "ai": [
+                "robot.capabilities"
+              ],
+              "qing2": [
+                "robot.capabilities"
+              ],
+              "li4": [
+                "robot.capabilities"
+              ],
+              "cheng2": [
+                "robot.capabilities"
+              ],
+              "kai1": [
+                "robot.capabilities"
+              ],
+              "fa1": [
+                "robot.capabilities"
+              ],
+              "zhe3": [
+                "robot.capabilities"
+              ],
+              "si1": [
+                "robot.capabilities"
+              ],
+              "chan3": [
+                "robot.capabilities"
+              ],
+              "pin3": [
+                "robot.capabilities"
+              ],
+              "zhi4": [
+                "robot.capabilities"
+              ],
+              "ping2": [
+                "robot.capabilities"
+              ],
+              "tai2": [
+                "robot.capabilities"
+              ],
+              "ju4": [
+                "robot.capabilities"
+              ],
+              "ying4": [
+                "robot.capabilities"
+              ],
+              "zhu3": [
+                "robot.capabilities"
+              ],
+              "fu4": [
+                "robot.capabilities"
+              ],
+              "shan4": [
+                "robot.capabilities"
+              ],
+              "zhuan1": [
+                "robot.capabilities"
+              ],
+              "chu3": [
+                "robot.capabilities"
+              ],
+              "li3": [
+                "robot.capabilities"
+              ],
+              "qiu2": [
+                "robot.capabilities"
+              ],
+              "ren4": [
+                "robot.capabilities"
+              ],
+              "wu5": [
+                "robot.capabilities"
+              ],
+              "chi1": [
+                "robot.capabilities"
+              ],
+              "tui1": [
+                "robot.capabilities"
+              ],
+              "shi2": [
+                "robot.capabilities"
+              ],
+              "can1": [
+                "robot.capabilities"
+              ],
+              "ting1": [
+                "robot.capabilities"
+              ],
+              "yin3": [
+                "robot.capabilities"
+              ],
+              "mei3": [
+                "robot.capabilities"
+              ],
+              "de5": [
+                "robot.capabilities"
+              ],
+              "qiang2": [
+                "robot.capabilities"
+              ],
+              "xiang4": [
+                "robot.capabilities"
+              ],
+              "zhi1": [
+                "robot.capabilities"
+              ],
+              "chu4": [
+                "robot.capabilities"
+              ],
+              "he4": [
+                "robot.capabilities"
+              ],
+              "hu2": [
+                "robot.capabilities"
+              ],
+              "huo2": [
+                "robot.capabilities"
+              ],
+              "huo4": [
+                "robot.capabilities"
+              ],
+              "qi2": [
+                "robot.capabilities"
+              ],
+              "ta1": [
+                "robot.capabilities"
+              ],
+              "tong2": [
+                "robot.capabilities"
+              ],
+              "gen1": [
+                "robot.capabilities"
+              ],
+              "qu1": [
+                "robot.capabilities"
+              ],
+              "bei4": [
+                "robot.capabilities"
+              ],
+              "jing3": [
+                "robot.capabilities"
+              ],
+              "she4": [
+                "robot.capabilities"
+              ],
+              "ji4": [
+                "robot.capabilities"
+              ],
+              "chuang4": [
+                "robot.capabilities"
+              ],
+              "zao4": [
+                "robot.capabilities"
+              ],
+              "zu3": [
+                "robot.capabilities"
               ]
             },
             "neuralNetwork": {
@@ -2061,391 +3525,735 @@
                 "huang2",
                 "bo4",
                 "wei3",
-                "zi5"
+                "zi5",
+                "zi4",
+                "ji3",
+                "gao4",
+                "su4",
+                "su5",
+                "shen1",
+                "fen4",
+                "dong1",
+                "xi1",
+                "xi5",
+                "na3",
+                "na5",
+                "nei3",
+                "wei4",
+                "sheng4",
+                "jue2",
+                "se4",
+                "cheng1",
+                "di3",
+                "tou2",
+                "zuo4",
+                "gong1",
+                "kuai4",
+                "yong4",
+                "wu4",
+                "xie1",
+                "chang2",
+                "tu2",
+                "gan4",
+                "ben3",
+                "ling3",
+                "zi1",
+                "xun4",
+                "ma2",
+                "mu4",
+                "di4",
+                "zhi2",
+                "ze2",
+                "xi4",
+                "tong3",
+                "lei4",
+                "xing2",
+                "ai",
+                "qing2",
+                "li4",
+                "cheng2",
+                "kai1",
+                "fa1",
+                "zhe3",
+                "si1",
+                "chan3",
+                "pin3",
+                "zhi4",
+                "ping2",
+                "tai2",
+                "ju4",
+                "ying4",
+                "zhu3",
+                "fu4",
+                "shan4",
+                "zhuan1",
+                "chu3",
+                "li3",
+                "qiu2",
+                "ren4",
+                "wu5",
+                "chi1",
+                "tui1",
+                "shi2",
+                "can1",
+                "ting1",
+                "yin3",
+                "mei3",
+                "de5",
+                "qiang2",
+                "xiang4",
+                "zhi1",
+                "chu4",
+                "he4",
+                "hu2",
+                "huo2",
+                "huo4",
+                "qi2",
+                "ta1",
+                "tong2",
+                "gen1",
+                "qu1",
+                "bei4",
+                "jing3",
+                "she4",
+                "ji4",
+                "chuang4",
+                "zao4",
+                "zu3"
               ],
               "intents": [
                 "greetings",
                 "people_info_陳闈霆",
                 "people_info_簡昱安",
                 "people_info_黃柏瑋",
-                "user.introduction"
+                "user.introduction",
+                "robot.capabilities"
               ],
               "perceptrons": [
                 [
-                  0.3971675634384155,
-                  2.267444610595703,
-                  3.3233797550201416,
-                  2.3062355518341064,
-                  1.2122581005096436,
-                  2.735522985458374,
-                  1.532543420791626,
-                  1.8183835744857788,
-                  2.1787586212158203,
-                  1.882897973060608,
-                  1.1545709371566772,
-                  0.03853243589401245,
-                  0.03853243589401245,
-                  1.0939542055130005,
-                  -0.004046471789479256,
-                  -0.004046471789479256,
-                  -0.004046471789479256,
-                  -0.004046471789479256,
-                  -0.004046471789479256,
-                  0.6205116510391235,
-                  -1.8091648817062378,
-                  -1.167893648147583,
-                  -0.7252687215805054,
-                  -0.9061952233314514,
-                  0.5050257444381714,
-                  0.5050257444381714,
-                  -0.13069859147071838,
-                  -0.8163378834724426,
-                  -1.2735650539398193,
-                  1.8726235628128052,
-                  1.8726235628128052,
-                  5.498185157775879,
-                  -0.4555205702781677,
-                  -0.4555205702781677,
-                  -0.7233812212944031,
-                  -0.7233812212944031,
-                  -0.7233812212944031,
-                  -7.893095970153809,
-                  10.942511558532715,
-                  1.15106999874115,
-                  1.15106999874115,
-                  1.15106999874115,
-                  4.576192855834961,
-                  4.576192855834961,
-                  1.5992470979690552,
-                  -0.2063419371843338,
-                  1.722353219985962,
-                  1.9453049898147583,
-                  5.4440460205078125,
-                  -0.5589379668235779,
-                  0.3242793083190918,
-                  0.3242793083190918,
-                  0.3242793083190918,
-                  -0.23539909720420837,
-                  1.114121437072754,
-                  -1.5002282857894897,
-                  1.6494286060333252,
-                  -0.4815813899040222,
-                  -0.4815813899040222,
-                  0.9732185006141663,
-                  -0.4752342402935028,
-                  0.15664108097553253,
-                  3.7671730518341064,
-                  -1.1801385879516602,
-                  0.6960232853889465,
-                  -2.2442736625671387,
-                  5.040786266326904,
-                  -7.056809902191162,
-                  -1.27707040309906,
-                  0.45586705207824707,
-                  -1.6714869737625122,
-                  -1.6714869737625122,
-                  1.1442985534667969,
-                  1.937233328819275,
-                  1.1111563444137573,
-                  0.5653583407402039,
-                  1.4438978433609009,
-                  -0.22385232150554657,
-                  -0.22385232150554657,
-                  0.6562995314598083,
-                  0.10048294067382812,
-                  -1.6404507160186768,
-                  1.1478668451309204,
-                  -0.6109457015991211,
-                  -0.06848715245723724,
-                  0.7359820604324341,
-                  0.7359820604324341,
-                  2.713357448577881,
-                  3.080209493637085,
-                  0.1813141107559204,
-                  0.1813141107559204,
-                  0.9410980939865112,
-                  -1.6846941709518433,
-                  -0.01866666041314602,
-                  0.6585410833358765,
-                  0.7699347138404846,
-                  2.2975902557373047,
-                  -0.04433850571513176,
-                  -0.04433850571513176,
-                  5.660345554351807,
-                  -0.789966881275177,
-                  0.4720812141895294,
-                  0.6960237622261047,
-                  1.7044868469238281,
-                  -0.035407859832048416,
-                  -0.035407859832048416,
-                  0.03643370419740677,
-                  -0.34388113021850586,
-                  -0.08916867524385452,
-                  1.9373130798339844,
-                  2.0855724811553955,
-                  1.0783870220184326,
-                  1.211674451828003,
-                  1.211674451828003,
-                  -0.22414535284042358,
-                  1.211674451828003,
-                  -4.782610893249512,
-                  -4.782610893249512,
-                  -4.782610893249512,
-                  -2.5151009559631348,
-                  -8.78779411315918,
-                  -1.3135452270507812,
-                  -1.3135452270507812,
-                  -1.3135452270507812,
-                  -1.3135452270507812,
+                  -1.5472290515899658,
+                  5.107045650482178,
+                  3.7653133869171143,
+                  2.653773546218872,
+                  1.3994442224502563,
+                  3.078296661376953,
+                  2.065788745880127,
+                  1.7200706005096436,
+                  2.084787368774414,
+                  1.8485379219055176,
+                  -1.3166425228118896,
+                  0.0707358866930008,
+                  0.0707358866930008,
+                  1.2545135021209717,
+                  -0.04663633182644844,
+                  -0.04663633182644844,
+                  -0.04663633182644844,
+                  -0.04663633182644844,
+                  -0.04663633182644844,
+                  0.5503448843955994,
+                  -4.359548091888428,
+                  -1.0341578722000122,
+                  -2.8891754150390625,
+                  -3.080124855041504,
+                  -0.4084729254245758,
+                  -0.4084729254245758,
+                  -0.6122111678123474,
+                  -1.1512912511825562,
+                  -1.388136863708496,
+                  5.000296115875244,
+                  -1.0358717441558838,
+                  5.799365520477295,
+                  -0.2398027628660202,
+                  -0.2398027628660202,
+                  -0.6305702924728394,
+                  -0.6305702924728394,
+                  -0.6305702924728394,
+                  -6.671671390533447,
+                  9.711821556091309,
+                  1.4840631484985352,
+                  1.4840631484985352,
+                  1.4840631484985352,
+                  4.507592678070068,
+                  4.507592678070068,
+                  3.418649911880493,
+                  0.4670027494430542,
+                  1.7925803661346436,
+                  2.3570947647094727,
+                  4.390197277069092,
+                  0.6722992062568665,
+                  -0.45497745275497437,
+                  -0.45497745275497437,
+                  -0.45497745275497437,
+                  0.0029242532327771187,
+                  1.1846789121627808,
+                  -1.6418253183364868,
+                  2.3170409202575684,
+                  -0.12844789028167725,
+                  -0.12844789028167725,
+                  -0.3920329809188843,
+                  1.0863617658615112,
+                  1.4641538858413696,
+                  4.464931011199951,
+                  -2.4698359966278076,
+                  0.6794244050979614,
+                  -2.453345775604248,
+                  5.529270648956299,
+                  -5.883278846740723,
+                  -1.5826091766357422,
+                  1.1329084634780884,
+                  -1.4583122730255127,
+                  -1.4583122730255127,
+                  1.1752103567123413,
+                  1.9548382759094238,
+                  1.8025703430175781,
+                  0.9116336703300476,
+                  2.179431438446045,
+                  -0.5679295063018799,
+                  -0.5679295063018799,
+                  0.6223406195640564,
+                  0.8311525583267212,
+                  -1.4370079040527344,
+                  0.14342749118804932,
+                  0.527958869934082,
+                  -0.25109654664993286,
+                  0.8046676516532898,
+                  0.8032137155532837,
+                  1.319066047668457,
+                  3.7066996097564697,
+                  0.32240942120552063,
+                  0.32240942120552063,
+                  -0.15162119269371033,
+                  -3.423717975616455,
+                  -0.7705180644989014,
+                  0.9281915426254272,
+                  0.7247219681739807,
+                  2.231534004211426,
+                  0.1273818463087082,
+                  0.1273818463087082,
+                  5.839529991149902,
+                  -0.7795102000236511,
+                  1.0058643817901611,
+                  1.0450001955032349,
+                  3.9263672828674316,
+                  -0.18759718537330627,
+                  -0.18759718537330627,
+                  0.24104508757591248,
+                  -0.44619691371917725,
+                  0.09881732612848282,
+                  1.7124720811843872,
+                  1.3832707405090332,
+                  0.8820458054542542,
+                  2.6110024452209473,
+                  2.6110024452209473,
+                  -3.9822211265563965,
+                  2.6110024452209473,
+                  -4.853127956390381,
+                  -4.853127956390381,
+                  -4.853127956390381,
+                  -4.46640157699585,
+                  -9.321541786193848,
+                  -7.312603950500488,
+                  -7.312603950500488,
+                  -1.101491093635559,
+                  -4.1528167724609375,
+                  -2.288601875305176,
+                  -2.288601875305176,
                   -0.39364737272262573,
-                  -0.39364737272262573,
-                  -0.39364737272262573,
-                  -7.953238010406494,
-                  -7.953238010406494,
-                  -4.779921531677246,
-                  -4.779921531677246,
-                  -4.779921531677246,
-                  -1.361962080001831,
-                  10.726465625920401
+                  -8.392229080200195,
+                  -8.392229080200195,
+                  -4.852487087249756,
+                  -4.852487087249756,
+                  -4.852487087249756,
+                  -1.065826654434204,
+                  -7.144826889038086,
+                  -1.6731054782867432,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.09544011205434799,
+                  -0.09544011205434799,
+                  -0.09544011205434799,
+                  -6.927271842956543,
+                  -0.1312878429889679,
+                  -0.1312878429889679,
+                  -0.1312878429889679,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.609415590763092,
+                  -0.3389438986778259,
+                  -3.65277361869812,
+                  0,
+                  -2.264101028442383,
+                  -6.762709140777588,
+                  0,
+                  0,
+                  -6.022144317626953,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.41209056973457336,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.41209056973457336,
+                  -0.41209056973457336,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -4.584200859069824,
+                  -4.251545429229736,
+                  -4.251545429229736,
+                  -4.2003350257873535,
+                  -0.7463546395301819,
+                  -0.7419998645782471,
+                  -1.966775894165039,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  10.20451589305734
                 ],
                 [
-                  -0.13166604936122894,
-                  -0.24960771203041077,
-                  -0.15239213407039642,
-                  -0.11196660995483398,
-                  -0.05692937970161438,
-                  -0.08293230086565018,
-                  -0.9546360969543457,
-                  -0.03104339726269245,
-                  -0.015239057131111622,
-                  -0.08428271114826202,
-                  -0.032523829489946365,
-                  -0.03514154255390167,
-                  -0.03514154255390167,
-                  -0.036227717995643616,
-                  -0.020770102739334106,
-                  -0.020770102739334106,
-                  -0.020770102739334106,
-                  -0.020770102739334106,
-                  -0.020770102739334106,
-                  -0.024503184482455254,
-                  -0.026445236057043076,
-                  -0.04140342026948929,
-                  -0.04069739207625389,
-                  -0.014920377172529697,
-                  -0.010550681501626968,
-                  -0.010550681501626968,
-                  -0.062243152409791946,
-                  -0.004695757757872343,
-                  -0.03857133537530899,
-                  -0.19336138665676117,
-                  -0.19336138665676117,
-                  -0.07168038189411163,
-                  -0.030353760346770287,
-                  -0.030353760346770287,
-                  -0.02810829132795334,
-                  -0.02810829132795334,
-                  -0.02810829132795334,
-                  -0.08846806734800339,
-                  -0.03756583109498024,
-                  -0.034277405589818954,
-                  -0.034277405589818954,
-                  -0.034277405589818954,
-                  -0.006136152893304825,
-                  -0.006136152893304825,
-                  -0.006136152893304825,
-                  0,
-                  -0.07419322431087494,
-                  -0.04785998538136482,
-                  -0.06144463270902634,
-                  -0.1879911869764328,
-                  -0.002652897732332349,
-                  -0.002652897732332349,
-                  -0.002652897732332349,
-                  -0.10518145561218262,
-                  -0.02317258156836033,
-                  -0.2014070451259613,
-                  -0.09875264018774033,
-                  -0.026261501014232635,
-                  -0.026261501014232635,
-                  -0.009146607480943203,
-                  -0.004611223470419645,
-                  -0.03424501791596413,
-                  -0.03976039960980415,
-                  -0.029702886939048767,
-                  -0.03424501791596413,
-                  -0.4513908326625824,
-                  0.023192986845970154,
-                  -0.10380183905363083,
-                  -0.0026592151261866093,
-                  -0.02022383362054825,
+                  -0.9902740120887756,
+                  -0.14696060121059418,
+                  -0.09925752878189087,
+                  -0.07338466495275497,
+                  -0.03463151678442955,
+                  -0.04751208797097206,
+                  -0.7952654957771301,
+                  -0.02888549491763115,
+                  -0.01298937015235424,
+                  -0.043352242559194565,
+                  -0.021261723712086678,
+                  -0.019949935376644135,
+                  -0.019949935376644135,
+                  -0.0274240430444479,
+                  -0.020116344094276428,
+                  -0.020116344094276428,
+                  -0.020116344094276428,
+                  -0.020116344094276428,
+                  -0.020116344094276428,
+                  -0.003594876965507865,
+                  -0.02330196090042591,
+                  -0.04169897735118866,
+                  -0.03312378376722336,
+                  -0.013185796327888966,
+                  -0.0100800646468997,
+                  -0.0100800646468997,
+                  -0.03675130382180214,
+                  -0.002227626508101821,
+                  -0.026875630021095276,
+                  -0.14416469633579254,
+                  -0.14416469633579254,
+                  -0.044274598360061646,
+                  -0.02269883081316948,
+                  -0.02269883081316948,
+                  -0.051301028579473495,
+                  -0.013001578859984875,
+                  -0.013001578859984875,
+                  -0.07231704890727997,
+                  -0.02007906325161457,
+                  -0.020708691328763962,
+                  -0.020708691328763962,
+                  -0.020708691328763962,
                   0,
                   0,
-                  -0.01084262877702713,
-                  -0.0024139394517987967,
-                  -0.03147047385573387,
-                  -0.016448844224214554,
-                  -0.03475463390350342,
-                  -0.016448844224214554,
-                  -0.016448844224214554,
-                  -0.026619741693139076,
-                  -0.008792300708591938,
-                  -0.006150371395051479,
-                  -0.006150371395051479,
-                  -0.0011226242640987039,
-                  -0.0011226242640987039,
-                  -0.012368584983050823,
-                  -0.012368584983050823,
-                  -0.09627127647399902,
+                  -0.010407378897070885,
                   0,
-                  0.2143562138080597,
-                  0.2143562138080597,
-                  -0.004394208546727896,
-                  -0.0047893766313791275,
-                  -0.002937842393293977,
-                  -0.006302565801888704,
+                  -0.04667961597442627,
+                  -0.02692124806344509,
+                  -0.12056782096624374,
+                  -0.2211577594280243,
+                  -0.005577460862696171,
+                  -0.005577460862696171,
+                  -0.005577460862696171,
+                  -0.061722759157419205,
+                  -0.00952123012393713,
+                  -0.04239925369620323,
+                  -0.12112283706665039,
+                  -0.00951209757477045,
+                  -0.00951209757477045,
+                  -0.0060468981973826885,
+                  -0.00039616203866899014,
+                  -0.024226881563663483,
+                  -0.03127133101224899,
+                  -0.017396217212080956,
+                  -0.024226881563663483,
+                  -0.36381852626800537,
+                  0.013485455885529518,
+                  -0.17693452537059784,
+                  -0.05427413433790207,
+                  -0.02443896234035492,
+                  0,
+                  0,
+                  -0.013463837094604969,
+                  -0.0034016366116702557,
+                  -0.02700415998697281,
+                  -0.01358725130558014,
+                  -0.015924781560897827,
+                  -0.01358725130558014,
+                  -0.01358725130558014,
+                  -0.019675839692354202,
+                  -0.0008411582093685865,
+                  -0.036794617772102356,
+                  -0.036794617772102356,
+                  -0.0008411582093685865,
+                  -0.0008411582093685865,
+                  -0.013502108864486217,
+                  -0.013502108864486217,
+                  -0.05963485687971115,
+                  0,
+                  0.17618563771247864,
+                  0.17618563771247864,
+                  -0.004373434465378523,
+                  -0.006899952422827482,
+                  -0.0034754665102809668,
+                  -0.004584020934998989,
                   0,
                   0,
                   0,
                   0,
-                  0.024633396416902542,
-                  -0.005619126372039318,
-                  -0.002937842393293977,
-                  -0.01657712645828724,
-                  -0.003924111369997263,
-                  -0.004717053379863501,
-                  -0.004717053379863501,
-                  -0.0023617760743945837,
+                  0.04205654188990593,
+                  -0.00670813350006938,
+                  -0.0034754665102809668,
+                  -0.004504646174609661,
+                  -0.0006964054773561656,
+                  -0.0015012174844741821,
+                  -0.0015012174844741821,
                   0,
-                  -0.001142759807407856,
-                  -0.001142759807407856,
-                  -0.001142759807407856,
                   0,
-                  -0.0029728158842772245,
-                  -0.0029728158842772245,
-                  -0.1530832201242447,
-                  -0.0029728158842772245,
-                  4.762661933898926,
-                  4.762661933898926,
-                  4.762661933898926,
-                  0.21216875314712524,
-                  -0.21148407459259033,
-                  0.050480857491493225,
-                  0.050480857491493225,
-                  0.050480857491493225,
-                  0.050480857491493225,
-                  0.024633396416902542,
-                  0.024633396416902542,
-                  0.024633396416902542,
-                  -0.9546360969543457,
-                  -0.9546360969543457,
-                  -0.8322620987892151,
-                  -0.8322620987892151,
-                  -0.8322620987892151,
-                  -0.13252177834510803,
-                  -0.002699709810395871
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.24833400547504425,
+                  0,
+                  4.763105869293213,
+                  4.763105869293213,
+                  4.763105869293213,
+                  0.2695233225822449,
+                  -0.2667962312698364,
+                  -0.2085840106010437,
+                  -0.2085840106010437,
+                  0.1756429523229599,
+                  0.28597378730773926,
+                  0.018066953867673874,
+                  0.018066953867673874,
+                  0.04205654188990593,
+                  -0.7952654957771301,
+                  -0.7952654957771301,
+                  -0.6875081658363342,
+                  -0.6875081658363342,
+                  -0.6875081658363342,
+                  -0.24833400547504425,
+                  -0.011994794011116028,
+                  -0.011994794011116028,
+                  -0.004274988081306219,
+                  -0.004274988081306219,
+                  -0.004274988081306219,
+                  -0.0052677299827337265,
+                  -0.0052677299827337265,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.010407378897070885,
+                  0,
+                  -0.0023524113930761814,
+                  -0.03735998272895813,
+                  0,
+                  -0.013486535288393497,
+                  0,
+                  0,
+                  -0.04655478522181511,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.012438379228115082,
+                  -0.012438379228115082,
+                  -0.003368921345099807,
+                  0,
+                  0,
+                  0,
+                  -0.0023524113930761814,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.028771325945854187,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.028771325945854187,
+                  -0.028771325945854187,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.0052995026082981855
                 ],
                 [
-                  -0.11659225821495056,
-                  -0.11746009439229965,
-                  -0.07938221842050552,
-                  -0.05911707505583763,
-                  -0.03497147560119629,
-                  -0.9289509654045105,
-                  1.264646291732788,
-                  -0.789757490158081,
-                  -0.7651265263557434,
-                  -0.029115281999111176,
-                  -0.012728664092719555,
-                  -0.006884293630719185,
-                  -0.006884293630719185,
-                  -0.006659862585365772,
-                  -0.1919228732585907,
-                  -0.1919228732585907,
-                  -0.1919228732585907,
-                  -0.1919228732585907,
-                  -0.1919228732585907,
+                  -1.3579789400100708,
+                  0,
+                  -0.02053222246468067,
+                  -0.019220899790525436,
+                  -0.019220899790525436,
+                  -0.9610476493835449,
+                  1.3340849876403809,
+                  -0.7934592366218567,
+                  -0.7649804353713989,
                   0,
                   0,
-                  -0.0026215112302452326,
-                  -0.003236045828089118,
                   0,
-                  -0.003936350345611572,
-                  -0.003936350345611572,
-                  -0.016415640711784363,
-                  -0.003236045828089118,
-                  -0.01196249295026064,
-                  -0.22658182680606842,
-                  -0.22658182680606842,
-                  -0.017310786992311478,
-                  -0.007108424324542284,
-                  -0.007108424324542284,
-                  -0.006648151203989983,
-                  -0.006648151203989983,
-                  -0.006648151203989983,
-                  -0.04263836145401001,
-                  -0.0058601051568984985,
-                  -0.006256814114749432,
-                  -0.006256814114749432,
-                  -0.006256814114749432,
-                  -0.00014180652215145528,
-                  -0.00014180652215145528,
-                  -0.00014180652215145528,
                   0,
-                  -0.013873666524887085,
-                  -0.009260616265237331,
-                  -0.010571039281785488,
-                  -0.07640241086483002,
-                  -0.0011015855707228184,
-                  -0.0011015855707228184,
-                  -0.0011015855707228184,
-                  -0.05719113349914551,
-                  -0.004301609005779028,
-                  -0.2349417358636856,
-                  -0.14847725629806519,
+                  0,
+                  -0.20395395159721375,
+                  -0.20395395159721375,
+                  -0.20395395159721375,
+                  -0.20395395159721375,
+                  -0.20395395159721375,
+                  0,
+                  0,
+                  -0.02343178726732731,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.08232764154672623,
+                  -0.08232764154672623,
+                  0,
+                  0,
+                  0,
+                  -0.023124607279896736,
+                  0,
+                  0,
+                  -0.028961634263396263,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.011595305986702442,
+                  0,
+                  0,
+                  0,
+                  -0.0937047153711319,
+                  -0.1993408501148224,
+                  0,
+                  0,
+                  0,
+                  -0.02291034534573555,
+                  0,
+                  0.09266035258769989,
+                  -0.15938235819339752,
                   -0.022252945229411125,
                   -0.022252945229411125,
-                  -0.014728454872965813,
-                  -0.014728454872965813,
-                  -0.0034628859721124172,
-                  -0.0034628859721124172,
-                  -0.0034628859721124172,
-                  -0.0034628859721124172,
-                  -0.4931684732437134,
-                  0.12096145749092102,
-                  -0.08024142682552338,
-                  -0.014728454872965813,
+                  -0.0043981862254440784,
+                  -0.0043981862254440784,
+                  0,
+                  -0.0009308510925620794,
+                  0,
+                  0,
+                  -0.38847994804382324,
+                  0.10849255323410034,
+                  -0.16766968369483948,
+                  -0.059339072555303574,
+                  -0.007993660867214203,
+                  0,
+                  0,
+                  -0.005484485067427158,
+                  -0.0009308510925620794,
+                  -0.008352726697921753,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.02343178726732731,
+                  0,
+                  -0.06606992334127426,
+                  -0.06606992334127426,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.023644505068659782,
+                  0,
+                  0.16927161812782288,
+                  0.16927161812782288,
+                  0,
+                  -0.0036508250050246716,
+                  -0.0024097838904708624,
+                  -0.0027585539501160383,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.05936553329229355,
+                  -0.003035755828022957,
+                  -0.0024097838904708624,
                   0,
                   0,
                   0,
                   0,
                   0,
-                  -0.024096524342894554,
-                  -0.0020497655496001244,
-                  -0.0034679053351283073,
-                  -0.0020497655496001244,
-                  -0.0020497655496001244,
-                  -0.0026215112302452326,
-                  -0.006750647909939289,
-                  -0.006921811960637569,
-                  -0.006921811960637569,
                   0,
                   0,
-                  -0.0025514462031424046,
-                  -0.0025514462031424046,
-                  -0.06144820898771286,
-                  0,
-                  0.19544823467731476,
-                  0.19544823467731476,
+                  -0.8095371723175049,
                   0,
                   0,
                   0,
                   0,
+                  -0.3024149537086487,
+                  0,
+                  -0.37278252840042114,
+                  -0.37278252840042114,
+                  -0.37278252840042114,
+                  0.42636486887931824,
+                  -0.35551679134368896,
+                  -0.3278258144855499,
+                  -0.3278258144855499,
+                  0.25421127676963806,
+                  0.3677617609500885,
+                  0.012501949444413185,
+                  0.012501949444413185,
+                  0.05936553329229355,
+                  7.099984169006348,
+                  7.099984169006348,
+                  -0.7952654957771301,
+                  -0.7952654957771301,
+                  -0.7952654957771301,
+                  -0.3024149537086487,
+                  -0.02343178726732731,
+                  -0.02343178726732731,
+                  -0.00094881362747401,
+                  -0.00094881362747401,
+                  -0.00094881362747401,
+                  -0.010685647837817669,
+                  -0.010685647837817669,
+                  -0.0029736810829490423,
+                  -0.0029736810829490423,
+                  -0.0029736810829490423,
                   0,
                   0,
                   0,
                   0,
-                  0.0358496718108654,
+                  0,
+                  0,
+                  -0.000014993881450209301,
+                  0,
+                  -0.011595305986702442,
+                  0,
+                  -0.003816246520727873,
+                  -0.04248567298054695,
+                  0,
+                  -0.01764213852584362,
+                  0,
+                  0,
+                  -0.03363557159900665,
                   0,
                   0,
                   0,
@@ -2455,306 +4263,758 @@
                   0,
                   0,
                   0,
-                  -0.7945341467857361,
                   0,
                   0,
                   0,
                   0,
-                  -0.1816127598285675,
                   0,
-                  -0.5921304225921631,
-                  -0.5921304225921631,
-                  -0.5921304225921631,
-                  0.27545636892318726,
-                  -0.25281503796577454,
-                  0.06343834847211838,
-                  0.06343834847211838,
-                  0.06343834847211838,
-                  0.06343834847211838,
-                  0.0358496718108654,
-                  0.0358496718108654,
-                  0.0358496718108654,
-                  7.129228591918945,
-                  7.129228591918945,
-                  -0.9622617959976196,
-                  -0.9622617959976196,
-                  -0.9622617959976196,
-                  -0.1816127598285675,
-                  -1.253080227533427
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.01135725062340498,
+                  -0.01135725062340498,
+                  -0.0041401581838727,
+                  0,
+                  0,
+                  0,
+                  -0.003816246520727873,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.023124607279896736,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.023124607279896736,
+                  -0.023124607279896736,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.0004349476657807827,
+                  -0.0004349476657807827,
+                  0,
+                  0,
+                  0,
+                  -1.297425983650918
                 ],
                 [
-                  -0.28244683146476746,
-                  -0.45778176188468933,
-                  -0.20839440822601318,
-                  -0.1116795614361763,
-                  -0.05116550251841545,
-                  -0.15086179971694946,
-                  -0.865271806716919,
-                  -0.11373475193977356,
-                  -0.07876314967870712,
-                  -0.09196266531944275,
-                  -0.039322707802057266,
-                  -0.03636161610484123,
-                  -0.03636161610484123,
-                  -0.034931305795907974,
-                  -0.0256926491856575,
-                  -0.0256926491856575,
-                  -0.0256926491856575,
-                  -0.0256926491856575,
-                  -0.0256926491856575,
-                  -0.028536861762404442,
-                  -0.020968791097402573,
-                  -0.058043472468853,
-                  -0.05993242934346199,
-                  -0.015886804088950157,
-                  -0.01386782806366682,
-                  -0.01386782806366682,
-                  -0.07089581340551376,
-                  -0.010444416664540768,
-                  -0.04393824189901352,
-                  -0.392720103263855,
-                  -0.392720103263855,
-                  -0.06874675303697586,
-                  -0.028271615505218506,
-                  -0.028271615505218506,
-                  -0.026339329779148102,
-                  -0.026339329779148102,
-                  -0.026339329779148102,
-                  -0.11190647631883621,
-                  -0.024858972057700157,
-                  -0.024797044694423676,
-                  -0.024797044694423676,
-                  -0.024797044694423676,
-                  -0.009431547485291958,
-                  -0.009431547485291958,
-                  -0.009431547485291958,
+                  -1.7714132070541382,
+                  -0.12813322246074677,
+                  -0.10064776986837387,
+                  -0.0690317153930664,
+                  -0.033158689737319946,
+                  -0.038140516728162766,
+                  -0.48734477162361145,
+                  -0.04873298108577728,
+                  -0.03086874820291996,
+                  -0.043412722647190094,
+                  -0.02417580410838127,
+                  -0.022405166178941727,
+                  -0.022405166178941727,
+                  -0.023136431351304054,
+                  -0.023290744051337242,
+                  -0.023290744051337242,
+                  -0.023290744051337242,
+                  -0.023290744051337242,
+                  -0.023290744051337242,
                   0,
-                  -0.07090456783771515,
-                  -0.04260167106986046,
-                  -0.046965841203927994,
-                  -0.181056946516037,
-                  -0.003880638862028718,
-                  -0.003880638862028718,
-                  -0.003880638862028718,
-                  -0.14633651077747345,
-                  -0.032986778765916824,
-                  -0.3572973310947418,
-                  -0.2476133406162262,
-                  -0.0665537565946579,
-                  -0.0665537565946579,
-                  -0.03799109533429146,
-                  -0.036760102957487106,
-                  -0.018105462193489075,
-                  -0.03525105491280556,
-                  -0.018105462193489075,
-                  -0.018105462193489075,
-                  -0.6141896843910217,
-                  0.09086702764034271,
-                  -0.1376296728849411,
-                  -0.0362313911318779,
-                  -0.018729954957962036,
-                  -0.0017519468674436212,
-                  -0.0017519468674436212,
-                  -0.021282067522406578,
-                  -0.010720781981945038,
-                  -0.029523545876145363,
-                  -0.014877996407449245,
-                  -0.032178133726119995,
-                  -0.014877996407449245,
-                  -0.014877996407449245,
-                  -0.025520088151097298,
-                  -0.04043929651379585,
-                  -0.029311342164874077,
-                  -0.029311342164874077,
-                  -0.00014965186710469425,
-                  -0.00014965186710469425,
-                  -0.015391097404062748,
-                  -0.015391097404062748,
-                  -0.09738166630268097,
-                  0,
-                  0.26277288794517517,
-                  0.26277288794517517,
-                  0,
-                  -0.0036455788649618626,
-                  -0.004506206605583429,
-                  -0.005560244433581829,
+                  -0.011168070137500763,
+                  -0.05369315296411514,
+                  -0.029005078598856926,
+                  -0.008844180963933468,
+                  -0.007479650434106588,
+                  -0.007479650434106588,
+                  -0.031026722863316536,
+                  -0.003659623907878995,
+                  -0.026133446022868156,
+                  -0.28233614563941956,
+                  -0.28233614563941956,
+                  -0.04257603734731674,
+                  -0.01972910389304161,
+                  -0.01972910389304161,
+                  -0.06650442630052567,
+                  -0.014779778197407722,
+                  -0.014779778197407722,
+                  -0.08088218420743942,
+                  -0.015695706009864807,
+                  -0.01793733425438404,
+                  -0.01793733425438404,
+                  -0.01793733425438404,
                   0,
                   0,
+                  -0.017290275543928146,
+                  0,
+                  -0.035556744784116745,
+                  -0.01853141374886036,
+                  -0.20749369263648987,
+                  -0.33857062458992004,
+                  -0.003993716090917587,
+                  -0.003993716090917587,
+                  -0.003993716090917587,
+                  -0.1099625751376152,
+                  -0.0077488012611866,
+                  -0.04132990166544914,
+                  -0.31368792057037354,
+                  -0.041685137897729874,
+                  -0.041685137897729874,
+                  -0.014606879092752934,
+                  -0.014606879092752934,
+                  -0.01378119271248579,
+                  -0.01825014315545559,
+                  -0.01378119271248579,
+                  -0.01378119271248579,
+                  -0.62901771068573,
+                  0.08258052170276642,
+                  -0.23968861997127533,
+                  -0.09051655977964401,
+                  -0.021318688988685608,
                   0,
                   0,
-                  0.0616665743291378,
-                  -0.006076868623495102,
-                  -0.004506206605583429,
-                  -0.0018884035525843501,
+                  -0.01670563593506813,
+                  -0.0005631147068925202,
+                  -0.02668904699385166,
+                  -0.01011141948401928,
+                  -0.01011141948401928,
+                  -0.01011141948401928,
+                  -0.01011141948401928,
+                  -0.029932526871562004,
+                  -0.006347347982227802,
+                  -0.15338218212127686,
+                  -0.15338218212127686,
                   0,
-                  -0.0008686956134624779,
-                  -0.0008686956134624779,
+                  0,
+                  -0.0013659493997693062,
+                  -0.0013659493997693062,
+                  -0.08140844106674194,
+                  0,
+                  0.27573156356811523,
+                  0.27573156356811523,
+                  0,
+                  -0.006999726872891188,
+                  -0.007744825445115566,
+                  -0.009281272068619728,
                   0,
                   0,
-                  -0.0017038898076862097,
-                  -0.0017038898076862097,
-                  -0.0017038898076862097,
                   0,
-                  -0.0019061379134654999,
-                  -0.0019061379134654999,
-                  -0.2069879174232483,
-                  -0.0019061379134654999,
-                  -0.7463334798812866,
-                  -0.7463334798812866,
-                  -0.7463334798812866,
-                  0.2623472809791565,
-                  -0.25939056277275085,
-                  0.08988187462091446,
-                  0.08988187462091446,
-                  0.08988187462091446,
-                  0.08988187462091446,
-                  0.0616665743291378,
-                  0.0616665743291378,
-                  0.0616665743291378,
-                  -0.5356673002243042,
-                  -0.5356673002243042,
-                  4.828349590301514,
-                  4.828349590301514,
-                  4.828349590301514,
-                  -0.17542000114917755,
-                  -0.20118287712648217
+                  0,
+                  0.10958857089281082,
+                  -0.010761681012809277,
+                  -0.007744825445115566,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.3912595510482788,
+                  0,
+                  -0.49013328552246094,
+                  -0.49013328552246094,
+                  -0.49013328552246094,
+                  0.5374035239219666,
+                  -0.5307198166847229,
+                  -0.40485501289367676,
+                  -0.40485501289367676,
+                  0.364877313375473,
+                  0.4912106394767761,
+                  0.04619548097252846,
+                  0.04619548097252846,
+                  0.10958857089281082,
+                  -0.3661125600337982,
+                  -0.3661125600337982,
+                  4.789575099945068,
+                  4.789575099945068,
+                  4.789575099945068,
+                  -0.3912595510482788,
+                  -0.046662766486406326,
+                  -0.046662766486406326,
+                  -0.024271871894598007,
+                  -0.024271871894598007,
+                  -0.024271871894598007,
+                  -0.021830933168530464,
+                  -0.021830933168530464,
+                  -0.00960578490048647,
+                  -0.00960578490048647,
+                  -0.00960578490048647,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.001935999607667327,
+                  -0.001935999607667327,
+                  0,
+                  -0.017290275543928146,
+                  0,
+                  0,
+                  -0.02232140675187111,
+                  0,
+                  -0.01440215203911066,
+                  0,
+                  0,
+                  -0.033609770238399506,
+                  0,
+                  0,
+                  -0.005219971761107445,
+                  -0.005219971761107445,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.002545834518969059,
+                  -0.002545834518969059,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.029556941241025925,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.029556941241025925,
+                  -0.029556941241025925,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.08718881361237962
                 ],
                 [
-                  -0.9350131154060364,
-                  -1.0839965343475342,
-                  -0.5022696852684021,
-                  -0.3624381422996521,
-                  -0.15606816112995148,
-                  -0.19345609843730927,
-                  -1.3479855060577393,
-                  -0.1949116736650467,
-                  -0.15689082443714142,
-                  -0.19310623407363892,
-                  -0.09291408956050873,
-                  -0.10599756240844727,
-                  -0.10599756240844727,
-                  -0.13686159253120422,
-                  -0.11560066044330597,
-                  -0.11560066044330597,
-                  -0.11560066044330597,
-                  -0.11560066044330597,
-                  -0.11560066044330597,
-                  -0.11109333485364914,
-                  -0.02483220584690571,
-                  -0.031635623425245285,
-                  -0.07995455712080002,
-                  -0.016880840063095093,
-                  -0.015075507573783398,
-                  -0.015075507573783398,
-                  -1.1331806182861328,
-                  -0.011297809891402721,
-                  -0.10201464593410492,
-                  -1.4043294191360474,
-                  -1.4043294191360474,
-                  -7.387000560760498,
-                  -0.08224347978830338,
-                  -0.08224347978830338,
-                  -0.07490205764770508,
-                  -0.07490205764770508,
-                  -0.07490205764770508,
-                  6.855031490325928,
-                  -5.005425930023193,
-                  -0.07444189488887787,
-                  -0.07444189488887787,
-                  -0.07444189488887787,
-                  -0.9816866517066956,
-                  -0.9816866517066956,
-                  -0.9910861253738403,
-                  -0.004699760116636753,
-                  -0.1384662240743637,
-                  -0.09954732656478882,
-                  -6.107974052429199,
-                  -1.3049262762069702,
+                  -3.639561176300049,
+                  -0.3929900825023651,
+                  -0.36170104146003723,
+                  -0.25824445486068726,
+                  -0.12889738380908966,
+                  -0.17820370197296143,
+                  -0.8610355854034424,
+                  -0.18115052580833435,
+                  -0.1384519636631012,
+                  -0.14967858791351318,
+                  -0.09170417487621307,
+                  -0.08282559365034103,
+                  -0.08282559365034103,
+                  -0.09015244245529175,
+                  -0.032568927854299545,
+                  -0.032568927854299545,
+                  -0.032568927854299545,
+                  -0.032568927854299545,
+                  -0.032568927854299545,
+                  0,
+                  -0.045023929327726364,
+                  -0.13834865391254425,
+                  -0.07015674561262131,
+                  -0.035100057721138,
+                  -0.03221944347023964,
+                  -0.03221944347023964,
+                  -0.3422398865222931,
+                  0,
+                  -0.045819323509931564,
+                  -1.8293465375900269,
+                  -1.8293465375900269,
+                  -7.509366989135742,
+                  -0.045819323509931564,
+                  -0.045819323509931564,
+                  -0.0403127484023571,
+                  -0.0403127484023571,
+                  -0.0403127484023571,
+                  6.612237453460693,
+                  -4.545208930969238,
+                  -0.06632116436958313,
+                  -0.06632116436958313,
+                  -0.06632116436958313,
+                  -0.2017056941986084,
+                  -0.2017056941986084,
+                  -0.2215832769870758,
+                  0,
+                  -0.09736378490924835,
+                  -0.07227456569671631,
+                  -6.134338855743408,
+                  -1.5407164096832275,
+                  -0.01734699122607708,
+                  -0.01734699122607708,
+                  -0.01734699122607708,
+                  -3.8066518306732178,
+                  -0.0018733356846496463,
+                  -1.6252753734588623,
+                  -0.3261992335319519,
+                  1.8625133037567139,
+                  1.8625133037567139,
+                  -2.060264825820923,
+                  -0.12731270492076874,
+                  -1.3224912881851196,
+                  -2.8557260036468506,
+                  -0.025529658421874046,
+                  -1.3224912881851196,
+                  9.567540168762207,
+                  -8.055177688598633,
+                  6.656235218048096,
+                  -1.6905698776245117,
+                  -0.7267559766769409,
                   0,
                   0,
+                  -1.5359007120132446,
+                  -1.5328125953674316,
                   0,
-                  -3.741962194442749,
-                  -0.03646598383784294,
-                  -1.5733531713485718,
-                  -0.41623592376708984,
-                  0.4786666929721832,
-                  0.4786666929721832,
-                  -1.7028698921203613,
-                  -0.18451976776123047,
-                  -1.408388614654541,
-                  -2.8786497116088867,
-                  -0.024576963856816292,
-                  -1.408388614654541,
-                  9.230560302734375,
-                  -8.152870178222656,
-                  6.869863986968994,
-                  -0.7979386448860168,
-                  -0.6189178228378296,
+                  -0.17103242874145508,
+                  -0.05978358909487724,
+                  -0.01228299643844366,
+                  -0.01228299643844366,
+                  -0.14510883390903473,
+                  -0.0479779988527298,
+                  -0.03608321025967598,
+                  -0.03608321025967598,
                   0,
                   0,
-                  -1.4738290309906006,
-                  -1.4701672792434692,
+                  -0.0018733356846496463,
+                  -0.0018733356846496463,
+                  -0.10542845726013184,
+                  -3.8643898963928223,
+                  -0.6004211902618408,
+                  -0.6004211902618408,
+                  -0.17449498176574707,
+                  -0.41593384742736816,
+                  -0.4089660346508026,
+                  -0.3478655219078064,
                   0,
-                  -0.639701783657074,
-                  -0.12110389024019241,
-                  -0.020976658910512924,
-                  -0.020976658910512924,
-                  -0.09102180600166321,
-                  -0.20308232307434082,
-                  0,
-                  0,
-                  0,
-                  0,
-                  -0.001126650720834732,
-                  -0.001126650720834732,
-                  -0.16983236372470856,
-                  -4.028882026672363,
-                  -0.543984591960907,
-                  -0.543984591960907,
-                  -0.19072376191616058,
-                  -0.233584925532341,
-                  -0.09176580607891083,
-                  -0.09176580607891083,
-                  0,
-                  -3.365952730178833,
-                  -0.9557047486305237,
-                  -0.9557047486305237,
-                  -3.6521613597869873,
-                  -0.0018309307051822543,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
+                  -3.680481433868408,
+                  -1.0665868520736694,
+                  -1.0665868520736694,
+                  -3.7347731590270996,
+                  -0.0015440720599144697,
+                  -0.050879206508398056,
                   0,
                   0,
                   0,
                   0,
                   0,
                   0,
-                  -0.33391472697257996,
-                  -0.33391472697257996,
-                  -0.18695689737796783,
-                  -0.33391472697257996,
-                  -0.9034417271614075,
-                  -0.9034417271614075,
-                  -0.9034417271614075,
-                  -2.486989974975586,
-                  6.899878025054932,
                   0,
                   0,
                   0,
                   0,
-                  -0.11004909873008728,
-                  -0.11004909873008728,
-                  -0.11004909873008728,
-                  -0.6805499792098999,
-                  -0.6805499792098999,
-                  -0.9027865529060364,
-                  -0.9027865529060364,
-                  -0.9027865529060364,
-                  0.17392553389072418,
-                  -1.8306691239697004
+                  -0.08893030881881714,
+                  -0.08893030881881714,
+                  -0.054614413529634476,
+                  -0.08893030881881714,
+                  -0.5659576654434204,
+                  -0.5659576654434204,
+                  -0.5659576654434204,
+                  -3.0523483753204346,
+                  6.7266058921813965,
+                  -2.526724100112915,
+                  -2.526724100112915,
+                  0,
+                  -0.14295636117458344,
+                  -0.09967590123414993,
+                  -0.09967590123414993,
+                  0,
+                  -0.41821473836898804,
+                  -0.41821473836898804,
+                  -0.5656867027282715,
+                  -0.5656867027282715,
+                  -0.5656867027282715,
+                  0.0651281401515007,
+                  -0.1312781423330307,
+                  -0.09967590123414993,
+                  -0.7540785074234009,
+                  -0.7540785074234009,
+                  -0.7540785074234009,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.4661230742931366,
+                  -0.4661230742931366,
+                  -0.4661230742931366,
+                  -0.4661230742931366,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.013137047179043293,
+                  0,
+                  -0.13925915956497192,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.8679952025413513,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.8679952025413513,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.02944500558078289,
+                  0,
+                  0,
+                  -0.2663184702396393,
+                  -0.06793659180402756,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.9999383720622796
+                ],
+                [
+                  10.271722793579102,
+                  -8.608567237854004,
+                  -0.5291138887405396,
+                  -0.40152573585510254,
+                  -0.19410960376262665,
+                  -0.11493448168039322,
+                  -2.171971082687378,
+                  -0.10529925674200058,
+                  -0.09406296908855438,
+                  -0.17797715961933136,
+                  -0.06881227344274521,
+                  -0.13017265498638153,
+                  -0.13017265498638153,
+                  -0.13464748859405518,
+                  0.0420602448284626,
+                  0.0420602448284626,
+                  0.0420602448284626,
+                  0.0420602448284626,
+                  0.0420602448284626,
+                  -1.2700587511062622,
+                  0,
+                  1.510457992553711,
+                  2.021059513092041,
+                  0,
+                  0,
+                  0,
+                  -0.7357420921325684,
+                  -0.039322379976511,
+                  2.1827926635742188,
+                  -0.9921980500221252,
+                  2.615286111831665,
+                  -0.03431940823793411,
+                  -0.1754867136478424,
+                  0.752455472946167,
+                  0.0873824805021286,
+                  -0.08008290827274323,
+                  -0.08008290827274323,
+                  -2.1289126873016357,
+                  -0.30922186374664307,
+                  -0.057946138083934784,
+                  -0.057946138083934784,
+                  -0.057946138083934784,
+                  -1.9960042238235474,
+                  -1.9960042238235474,
+                  -1.0552762746810913,
+                  -0.22712641954421997,
+                  -0.08310762047767639,
+                  -0.08310762047767639,
+                  3.013441562652588,
+                  -3.3593854904174805,
+                  -0.15810364484786987,
+                  0,
+                  0,
+                  -8.735130310058594,
+                  -0.14663387835025787,
+                  1.6261897087097168,
+                  -1.7530566453933716,
+                  -1.8623229265213013,
+                  -1.8623229265213013,
+                  2.0204999446868896,
+                  0.11830434948205948,
+                  -0.00798696931451559,
+                  0.42860665917396545,
+                  -0.00798696931451559,
+                  -1.9443161487579346,
+                  -2.316566228866577,
+                  -0.4187893867492676,
+                  0.16957983374595642,
+                  -0.512404203414917,
+                  -0.9464257955551147,
+                  0.9927555918693542,
+                  -0.07205992937088013,
+                  -0.07205992937088013,
+                  -0.07205992937088013,
+                  -0.40110644698143005,
+                  0.39551639556884766,
+                  -0.4874860644340515,
+                  0,
+                  0,
+                  1.1733967065811157,
+                  -1.3787055015563965,
+                  0.6447290778160095,
+                  0.6447290778160095,
+                  -2.141767978668213,
+                  1.499985933303833,
+                  -0.10413814336061478,
+                  -1.3845630884170532,
+                  2.1063947677612305,
+                  1.0255643129348755,
+                  0,
+                  1.7064999341964722,
+                  0,
+                  1.1230108737945557,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.9753614664077759,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.1301235854625702,
+                  -0.1301235854625702,
+                  0.9652237296104431,
+                  -0.1301235854625702,
+                  -1.6565409898757935,
+                  -1.6565409898757935,
+                  -1.6565409898757935,
+                  6.3681511878967285,
+                  0.5977940559387207,
+                  3.6849489212036133,
+                  2.5981075763702393,
+                  -1.1516631841659546,
+                  1.2130160331726074,
+                  0.009496820159256458,
+                  0.009496820159256458,
+                  -0.9753614664077759,
+                  -1.3921455144882202,
+                  -1.3921455144882202,
+                  -1.6485018730163574,
+                  -1.6485018730163574,
+                  -1.6485018730163574,
+                  -0.4181511700153351,
+                  3.3409457206726074,
+                  1.006333589553833,
+                  0.6493943333625793,
+                  0.6493943333625793,
+                  0.6493943333625793,
+                  0.0256052166223526,
+                  0.0256052166223526,
+                  0.13099469244480133,
+                  0.13099469244480133,
+                  0.13099469244480133,
+                  7.421516418457031,
+                  -0.26220574975013733,
+                  -0.26220574975013733,
+                  -0.26220574975013733,
+                  1.0858125686645508,
+                  -0.05450200289487839,
+                  0.777518630027771,
+                  -0.7854246497154236,
+                  1.2792179584503174,
+                  0.24858608841896057,
+                  1.477996587753296,
+                  -1.0992501974105835,
+                  -0.17631316184997559,
+                  -1.6439170837402344,
+                  1.234818696975708,
+                  -0.5244137644767761,
+                  -0.15727846324443817,
+                  1.0303024053573608,
+                  4.869358539581299,
+                  -0.8144634962081909,
+                  -0.8144634962081909,
+                  -0.31226789951324463,
+                  -0.31226789951324463,
+                  1.260996699333191,
+                  -0.4065614938735962,
+                  -0.4065614938735962,
+                  0.28420865535736084,
+                  -1.2886825799942017,
+                  -0.44835445284843445,
+                  -0.44835445284843445,
+                  0.10600662976503372,
+                  0.10600662976503372,
+                  -0.6888940334320068,
+                  -1.7930865287780762,
+                  -1.3548065423965454,
+                  -0.4383750557899475,
+                  0.006510942243039608,
+                  0.006510942243039608,
+                  0.01356196217238903,
+                  0.23595185577869415,
+                  0.23595185577869415,
+                  0.23595185577869415,
+                  -1.2863527536392212,
+                  -0.16666465997695923,
+                  -0.16666465997695923,
+                  0.9111934304237366,
+                  1.3388653993606567,
+                  0.44458064436912537,
+                  0.8496043682098389,
+                  0.37397417426109314,
+                  0.3518340289592743,
+                  -0.26518428325653076,
+                  -0.4980252981185913,
+                  -1.303856372833252,
+                  0.8117884397506714,
+                  0.8117884397506714,
+                  2.7978596687316895,
+                  1.714644432067871,
+                  4.1809492111206055,
+                  5.689081192016602,
+                  0.4871542751789093,
+                  0.31515932083129883,
+                  1.6753790378570557,
+                  -1.1292188167572021,
+                  0.0917065441608429,
+                  0.0917065441608429,
+                  0.09428026527166367,
+                  0.23418410122394562,
+                  -0.15810364484786987,
+                  -0.15810364484786987,
+                  -0.15810364484786987,
+                  -0.15810364484786987,
+                  -0.19581030309200287,
+                  -0.19581030309200287,
+                  -0.15810364484786987,
+                  -0.036410506814718246,
+                  -0.036410506814718246,
+                  -0.0195036381483078,
+                  -0.0195036381483078,
+                  -0.05679437518119812,
+                  -0.05679437518119812,
+                  -0.054303571581840515,
+                  -0.054303571581840515,
+                  -0.13839057087898254,
+                  -2.849928463864864
                 ]
               ]
             }
@@ -3243,6 +5503,406 @@
       [
         "zh",
         "我姓"
+      ],
+      [
+        "zh",
+        "你是誰"
+      ],
+      [
+        "zh",
+        "你叫什麼名字"
+      ],
+      [
+        "zh",
+        "請問你是誰"
+      ],
+      [
+        "zh",
+        "你的名字是什麼"
+      ],
+      [
+        "zh",
+        "介紹一下你自己"
+      ],
+      [
+        "zh",
+        "你是什麼機器人"
+      ],
+      [
+        "zh",
+        "你是什麼"
+      ],
+      [
+        "zh",
+        "能告訴我你是誰嗎"
+      ],
+      [
+        "zh",
+        "請介紹你自己"
+      ],
+      [
+        "zh",
+        "你的身份是什麼"
+      ],
+      [
+        "zh",
+        "你是什麼東西"
+      ],
+      [
+        "zh",
+        "你是哪位"
+      ],
+      [
+        "zh",
+        "你是何方神聖"
+      ],
+      [
+        "zh",
+        "你是什麼角色"
+      ],
+      [
+        "zh",
+        "你叫什麼"
+      ],
+      [
+        "zh",
+        "你的名稱是什麼"
+      ],
+      [
+        "zh",
+        "你有名字嗎"
+      ],
+      [
+        "zh",
+        "你是誰啊"
+      ],
+      [
+        "zh",
+        "你到底是誰"
+      ],
+      [
+        "zh",
+        "你是什麼來頭"
+      ],
+      [
+        "zh",
+        "你可以做什麼"
+      ],
+      [
+        "zh",
+        "你能做什麼"
+      ],
+      [
+        "zh",
+        "你有什麼功能"
+      ],
+      [
+        "zh",
+        "你會做什麼"
+      ],
+      [
+        "zh",
+        "你能幫我做什麼"
+      ],
+      [
+        "zh",
+        "你有什麼用"
+      ],
+      [
+        "zh",
+        "你能提供什麼服務"
+      ],
+      [
+        "zh",
+        "你有什麼功能"
+      ],
+      [
+        "zh",
+        "你能幫我什麼忙"
+      ],
+      [
+        "zh",
+        "你的功能有哪些"
+      ],
+      [
+        "zh",
+        "你能做些什麼"
+      ],
+      [
+        "zh",
+        "你會什麼"
+      ],
+      [
+        "zh",
+        "你能提供什麼幫助"
+      ],
+      [
+        "zh",
+        "你能回答什麼問題"
+      ],
+      [
+        "zh",
+        "你有什麼特長"
+      ],
+      [
+        "zh",
+        "你是做什麼用的"
+      ],
+      [
+        "zh",
+        "你的用途是什麼"
+      ],
+      [
+        "zh",
+        "你的作用是什麼"
+      ],
+      [
+        "zh",
+        "你能解決什麼問題"
+      ],
+      [
+        "zh",
+        "你能回答哪些問題"
+      ],
+      [
+        "zh",
+        "你能幹嘛"
+      ],
+      [
+        "zh",
+        "你會什麼東西"
+      ],
+      [
+        "zh",
+        "你能幫我什麼"
+      ],
+      [
+        "zh",
+        "你有什麼本領"
+      ],
+      [
+        "zh",
+        "你能提供什麼資訊"
+      ],
+      [
+        "zh",
+        "你能告訴我什麼"
+      ],
+      [
+        "zh",
+        "你是幹嘛的"
+      ],
+      [
+        "zh",
+        "你的目的是什麼"
+      ],
+      [
+        "zh",
+        "你的職責是什麼"
+      ],
+      [
+        "zh",
+        "你是什麼系統"
+      ],
+      [
+        "zh",
+        "你是什麼類型的機器人"
+      ],
+      [
+        "zh",
+        "你是什麼助手"
+      ],
+      [
+        "zh",
+        "你是什麼AI"
+      ],
+      [
+        "zh",
+        "你能做什麼事情"
+      ],
+      [
+        "zh",
+        "你有什麼能力"
+      ],
+      [
+        "zh",
+        "你能幫我找什麼"
+      ],
+      [
+        "zh",
+        "你是什麼程式"
+      ],
+      [
+        "zh",
+        "你是誰開發的"
+      ],
+      [
+        "zh",
+        "你的開發者是誰"
+      ],
+      [
+        "zh",
+        "你是什麼公司的產品"
+      ],
+      [
+        "zh",
+        "你是誰製作的"
+      ],
+      [
+        "zh",
+        "你是什麼平台"
+      ],
+      [
+        "zh",
+        "你是什麼服務"
+      ],
+      [
+        "zh",
+        "你是什麼工具"
+      ],
+      [
+        "zh",
+        "你是什麼應用"
+      ],
+      [
+        "zh",
+        "你的主要功能是什麼"
+      ],
+      [
+        "zh",
+        "你主要負責什麼"
+      ],
+      [
+        "zh",
+        "你擅長什麼"
+      ],
+      [
+        "zh",
+        "你專長什麼"
+      ],
+      [
+        "zh",
+        "你能解答什麼問題"
+      ],
+      [
+        "zh",
+        "你能回答什麼"
+      ],
+      [
+        "zh",
+        "你能處理什麼請求"
+      ],
+      [
+        "zh",
+        "你能處理什麼任務"
+      ],
+      [
+        "zh",
+        "你能幫我找什麼吃的"
+      ],
+      [
+        "zh",
+        "你能推薦食物嗎"
+      ],
+      [
+        "zh",
+        "你能幫我點餐嗎"
+      ],
+      [
+        "zh",
+        "你能告訴我附近有什麼好吃的嗎"
+      ],
+      [
+        "zh",
+        "你能幫我找餐廳嗎"
+      ],
+      [
+        "zh",
+        "你是餐飲機器人嗎"
+      ],
+      [
+        "zh",
+        "你是美食機器人嗎"
+      ],
+      [
+        "zh",
+        "你能推薦美食嗎"
+      ],
+      [
+        "zh",
+        "你能幫我找吃的嗎"
+      ],
+      [
+        "zh",
+        "你是吃什麼的機器人"
+      ],
+      [
+        "zh",
+        "你是做什麼的機器人"
+      ],
+      [
+        "zh",
+        "你是什麼類型的助手"
+      ],
+      [
+        "zh",
+        "你的專長是什麼"
+      ],
+      [
+        "zh",
+        "你的強項是什麼"
+      ],
+      [
+        "zh",
+        "你的特色是什麼"
+      ],
+      [
+        "zh",
+        "你有什麼特別之處"
+      ],
+      [
+        "zh",
+        "你和其他機器人有什麼不同"
+      ],
+      [
+        "zh",
+        "你跟其他AI有什麼區別"
+      ],
+      [
+        "zh",
+        "你的特點是什麼"
+      ],
+      [
+        "zh",
+        "你是什麼背景"
+      ],
+      [
+        "zh",
+        "你的背景是什麼"
+      ],
+      [
+        "zh",
+        "你是什麼身份"
+      ],
+      [
+        "zh",
+        "你是誰設計的"
+      ],
+      [
+        "zh",
+        "你的設計者是誰"
+      ],
+      [
+        "zh",
+        "你是誰創造的"
+      ],
+      [
+        "zh",
+        "你的創造者是誰"
+      ],
+      [
+        "zh",
+        "你是什麼組織的"
       ]
     ]
   },
@@ -3379,6 +6039,38 @@
         "user.introduction": [
           {
             "answer": "您好！我是您的智能助手，有什麼我可以幫您的嗎？"
+          }
+        ],
+        "robot.capabilities": [
+          {
+            "answer": "我是Eat2y機器人，你可以問我「我想吃OO」、「OOO有什麼好吃的」，我會幫你找到美食推薦！"
+          },
+          {
+            "answer": "你好！我是Eat2y美食助手，可以回答你「我想吃什麼」或「某地有什麼好吃的」等問題，讓我來滿足你的味蕾吧！"
+          },
+          {
+            "answer": "我是你的美食顧問Eat2y，專門解答「我想吃OO」、「OOO附近有什麼推薦」等問題，讓我幫你發現美食世界！"
+          },
+          {
+            "answer": "嗨！我是Eat2y，一個專注於美食推薦的機器人。你可以問我「我想吃OO」或「OOO有什麼好吃的」，我會給你最棒的建議！"
+          },
+          {
+            "answer": "很高興認識你！我是Eat2y機器人，專門回答「我想吃什麼」、「哪裡有好吃的」等問題，讓我成為你的美食嚮導吧！"
+          },
+          {
+            "answer": "我是Eat2y，你的專屬美食推薦機器人。無論你想知道「我想吃OO」還是「OOO有什麼好吃的」，我都能給你滿意的答案！"
+          },
+          {
+            "answer": "你好啊！我是Eat2y機器人，我的專長是回答「我想吃OO」、「OOO有什麼好吃的」等問題，讓我來解決你的美食煩惱吧！"
+          },
+          {
+            "answer": "我叫Eat2y，是一個美食推薦機器人。你可以問我「我想吃OO」或「OOO有什麼推薦」，我會盡力幫你找到最適合的美食！"
+          },
+          {
+            "answer": "很開心為你服務！我是Eat2y機器人，專門解答「我想吃OO」、「OOO有什麼好吃的」等問題，讓我來滿足你的味蕾吧！"
+          },
+          {
+            "answer": "嗨！我是你的美食夥伴Eat2y，你可以向我詢問「我想吃OO」、「OOO附近有什麼好吃的」，我會給你最佳的美食建議！"
           }
         ]
       }
