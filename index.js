@@ -8,9 +8,38 @@ const manager = new NlpManager({ languages: ['zh'], forceNER: true });
 
 // 處理聊天邏輯的函數，供 GET 和 POST 請求共用
 async function processChatMessage(message) {
-   try {
     if (!message) {
       return { error: '缺少訊息內容' };
+    }
+   try {
+    // 首先檢查是否是自我介紹格式
+    const introMatch = message.match(/我是\s*(.+)$/) || 
+                      message.match(/我叫\s*(.+)$/) || 
+                      message.match(/我的名字是\s*(.+)$/) || 
+                      message.match(/你可以叫我\s*(.+)$/) ||
+                      message.match(/我姓\s*(.+)$/);
+    
+    if (introMatch && introMatch[1]) {
+      const userName = introMatch[1].trim();
+      
+      // 定義多種回應模板
+      const responses = [
+        `您好，${userName}。我是您的智能助手，有什麼我可以幫您的嗎？`,
+        `很高興認識您，${userName}！我能為您提供什麼幫助呢？`,
+        `${userName}，您好！我是您的AI助手，請問有什麼需要協助的嗎？`,
+        `歡迎，${userName}！今天有什麼我能為您效勞的嗎？`,
+        `嗨，${userName}！很高興為您服務，請問有什麼問題嗎？`
+      ];
+      
+      // 隨機選擇一個回應
+      const randomResponse = responses[Math.floor(Math.random() * responses.length)];
+      
+      return {
+        answer: randomResponse,
+        intent: 'user.introduction',
+        score: 1,
+        extractedName: userName
+      };
     }
     
     
