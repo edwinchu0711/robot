@@ -87,7 +87,9 @@ async function startServer() {
     // 使用中間件
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
-    
+    app.use(cors({
+          origin: 'https://mis-web-project.onrender.com/'
+        }));
     // 設置靜態文件目錄
     app.use(express.static('public'));
     
