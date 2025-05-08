@@ -1,6 +1,7 @@
 const fs = require('fs');
 const { NlpManager } = require('node-nlp');
 const express = require('express');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 
 // 初始化 NLP 管理器
