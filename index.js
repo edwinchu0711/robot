@@ -49,7 +49,7 @@ async function processChatMessage(message) {
       const response = await manager.process('zh', message);
       
       // 如果沒有找到匹配的意圖或置信度低於閾值
-      if (!response.answer || response.score < 0.7) {
+      if (!response.answer || response.score < 0.6) {
         return { 
           answer: '抱歉，我不理解您的意思，您可以問我「我想吃OOO」、「(食物名稱)」或「隨便」，我就會推薦給您。',
           intent: response.intent,
