@@ -49,7 +49,7 @@ async function processChatMessage(message) {
       const response = await manager.process('zh', message);
       
       // 如果沒有找到匹配的意圖或置信度低於閾值
-      if (!response.answer || response.score < 0.55) {
+      if (!response.answer || response.score < 0.3) {
           if (!response.answer){
             return {
               answer: `抱歉，找不到符合您問題的回覆，請您問我其它問題，或傳其它照片。`,
