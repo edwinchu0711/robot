@@ -49,13 +49,22 @@ async function processChatMessage(message) {
       const response = await manager.process('zh', message);
       
       // 如果沒有找到匹配的意圖或置信度低於閾值
-      if (!response.answer || response.score < 0.6) {
-        return { 
-          answer: '抱歉，我不理解您的意思，您可以問我「我想吃OOO」、「(食物名稱)」或「隨便」，我就會推薦給您。',
-          intent: response.intent,
-          score: response.score
-        };
-      }
+      if (!response.answer || response.score < 0.55) {
+          if (!response.answer){
+            return {
+              answer: `抱歉，找不到符合您問題的回覆，請您問我其它問題，或傳其它照片。`,
+              intent: response.intent,
+              score: response.score
+            }
+          }
+          else{
+            return { 
+              answer: '抱歉，我不理解您的意思，您可以問我「我想吃OOO」、「(食物名稱)」或「隨便」，我就會推薦給您，或是傳照片給我，我會找相似的食物推薦給您。',
+              intent: response.intent,
+              score: response.score
+            };
+          }
+        }
       
       // 返回回答
       return { 
